@@ -9,18 +9,35 @@
 </head>
 <body>
   <div class = "backgroundImageStart page active">
-    <div class = "container-fluid" id="startScreen">
-      <audio src= "Music/Intro.mp3" autoplay>
-    </audio>
-
+    <div class = "container-fluid startLink" id="startScreen">
+      <audio id="song" autoplay="autoplay" loop>
+        <source src="Music/Intro.mp3">
+      </audio>
 
       <div class ="col-md-12 startPage text-center ">
-        <a href="#" rel=".theRoom">
-          <span>StART</span>
+        <a id="nextSong" href="#" rel=".theRoomLink">
+          <span id="start">StART</span>
         </a>
       </div>
     </div>
   </div>
+
+  <!--The Room-->
+  <div class = "theRoomLink page " id="theRoom">
+     <div class = "container-fluid" id="secondScreen">
+      <audio id="songTwo" src= "Music/TheRoom.mp3" autoplay muted loop>
+    </audio>
+
+      <div class ="col-md-12 secondPage text-left ">
+        <div class ="dialogBox">
+          <span>It's my dark room… No sun ever reaches this room , except when I crack my door."</span>
+        <a id="nextSong" href="#" rel=".theRoom">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
   <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
   <script type="text/javascript" src="main.js"></script>
