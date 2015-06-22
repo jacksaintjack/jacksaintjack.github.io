@@ -8,9 +8,18 @@ $(document).ready(function() {
     $(clickedPage).addClass('active');
     };
 
-
   $('#startScreen').on('click', 'a', pageHandler);
 
+  // For moving through dialog
+
+  $('.dialogBox').on('click',function(){
+  $('#dialog').siblings().removeClass('active');
+  $('#dialog').addClass('active');
+});
+
+
+
+  // Music Toggle
   $('body').on('click', '#nextSong', function () {
     document.getElementById('song').muted = true;
     });

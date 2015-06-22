@@ -10,6 +10,10 @@
 <body>
   <div class = "backgroundImageStart page active">
     <div class = "container-fluid startLink" id="startScreen">
+      <div class = "mainTitle text-center">
+      <span class ="fontOne">My</span>
+      <span class ="fontTwo">Room</span>
+    </div>
       <audio id="song" autoplay="autoplay" loop>
         <source src="Music/Intro.mp3">
       </audio>
@@ -28,9 +32,10 @@
       <audio id="songTwo" src= "Music/TheRoom.mp3" autoplay muted loop>
     </audio>
 
-      <div class ="col-md-12 secondPage text-left ">
-        <div class ="dialogBox">
-          <span>It's my dark room… No sun ever reaches this room , except when I crack my door."</span>
+      <div class ="col-md-12 secondPage text-center ">
+        <div class ="dialogBox text-left">
+          <span id="dialog" class="page active">It's my dark room… No sun ever reaches this room , except when I crack my door."</span>
+          <span id="dialog" class="page">"It has been so long now… I don’t remember what it feels like to feel a certain spectrum anymore. Some say I have gone mad, but…"</span>
         <a id="nextSong" href="#" rel=".theRoom">
         </a>
       </div>

@@ -17,7 +17,21 @@
   position:absolute;
   transition-delay: 1s;
 }
+.fontOne{
+  font-size: 7em;
+  color: rgb(46, 53, 57);
+  font-style: oblique;
+  font-weight: bold;
+}
+.fontTwo{
+  font-size: 7em;
+  color: rgb(179, 178, 177);
+  font-family: serif;
+}
 
+.mainTitle{
+  margin-top: 8%;
+}
 .startPage{
   padding-right: 15px;
   padding-left: 15px;
@@ -48,10 +62,13 @@
 }
 
 .secondPage{
-  width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 80%;
   margin-top: 50%;
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: lightsteelblue;
+  opacity: 0.7;
+  height: 7em;
 }
 
 .dialogBox{
