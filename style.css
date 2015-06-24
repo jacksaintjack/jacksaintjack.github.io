@@ -66,9 +66,8 @@
   margin-top: 50%;
   margin-left: 12%;
   margin-right: 12%;
-  background-color: lightsteelblue;
-  opacity: 0.7;
-  height: 7em;
+
+
 }
 
 .dialogBox{
@@ -77,4 +76,8 @@
   font-size: 2em;
   font-weight: bold;
   outline-color: white;
+  height: 3.5em;
+  background-color: lightsteelblue;
+  opacity: 0.7;
+  width: 100%
 }

@@ -13,8 +13,14 @@ $(document).ready(function() {
   // For moving through dialog
 
   $('.dialogBox').on('click',function(){
-  $('#dialog').siblings().removeClass('active');
-  $('#dialog').addClass('active');
+    var $dialogs = $('.dialog').siblings();
+    var $active = $('.dialog.active');
+    var $newActive = $active.next();
+    console.log($newActive);
+    $('.dialog').siblings().each(function(idx) {
+      $(this).removeClass('active');
+    });
+    $newActive.addClass('active');
 });
 
 
