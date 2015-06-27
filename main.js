@@ -6,7 +6,7 @@ $(document).ready(function() {
     var clickedPage = $(this).attr('rel');
     $(clickedPage).siblings().removeClass('active');
     $(clickedPage).addClass('active');
-    };
+  };
 
   $('#startScreen').on('click', 'a', pageHandler);
   $('#secondScreen').on('click', 'a', pageHandler);
@@ -15,8 +15,12 @@ $(document).ready(function() {
   $('#fifthScreen').on('click', 'a', pageHandler);
     $('#choiceOne').on('click', 'a', pageHandler);
     $('#choiceTwo').on('click', 'a', pageHandler);
-      $('#wrong').on('click', 'a', pageHandler);
-
+  $('#sixthScreen').on('click', 'a', pageHandler);
+  $('#seventhScreen').on('click', 'a', pageHandler);
+    $('#OptionTwoScreenOne').on('click', 'a', pageHandler);
+    $('#OptionTwoScreenTwo').on('click', 'a', pageHandler);
+  $('#eighthScreen').on('click', 'a', pageHandler);
+  $('#ninethScreen').on('click', 'a', pageHandler);
 
 
   // For moving through dialog
@@ -64,39 +68,29 @@ $(document).ready(function() {
     });
     $newActive.addClass('active');
   });
+
       // Dialog Options
-      $('.dialogBoxOptionOne').on('click',function(){
-        var $dialogs = $('.dialogOptionOne').siblings();
-        var $active = $('.dialogOptionOne.active');
-        var $newActive = $active.next();
-        console.log($newActive);
-        $('.dialogOptionOne').siblings().each(function(idx) {
-          $(this).removeClass('active');
-        });
-        $newActive.addClass('active');
+    $('.dialogBoxOptionOne').on('click',function(){
+      var $dialogs = $('.dialogOptionOne').siblings();
+      var $active = $('.dialogOptionOne.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogOptionOne').siblings().each(function(idx) {
+        $(this).removeClass('active');
       });
+      $newActive.addClass('active');
+    });
 
-      $('.dialogBoxOptionTwo').on('click',function(){
-        var $dialogs = $('.dialogOptionTwo').siblings();
-        var $active = $('.dialogOptionTwo.active');
-        var $newActive = $active.next();
-        console.log($newActive);
-        $('.dialogOptionTwo').siblings().each(function(idx) {
-          $(this).removeClass('active');
-        });
-        $newActive.addClass('active');
+    $('.dialogBoxOptionTwo').on('click',function(){
+      var $dialogs = $('.dialogOptionTwo').siblings();
+      var $active = $('.dialogOptionTwo.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogOptionTwo').siblings().each(function(idx) {
+        $(this).removeClass('active');
       });
-
-      $('.dialogBoxWrong').on('click',function(){
-        var $dialogs = $('.dialogWrong').siblings();
-        var $active = $('.dialogWrong.active');
-        var $newActive = $active.next();
-        console.log($newActive);
-        $('.dialogWrong').siblings().each(function(idx) {
-          $(this).removeClass('active');
-        });
-        $newActive.addClass('active');
-      });
+      $newActive.addClass('active');
+    });
 
     $('.dialogBoxFive').on('click',function(){
       var $dialogs = $('.dialogFive').siblings();
@@ -109,12 +103,91 @@ $(document).ready(function() {
       $newActive.addClass('active');
     });
 
+    $('.dialogBoxSix').on('click',function(){
+      var $dialogs = $('.dialogSix').siblings();
+      var $active = $('.dialogSix.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogSix').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxSeventh').on('click',function(){
+      var $dialogs = $('.dialogSeventh').siblings();
+      var $active = $('.dialogSeventh.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogSeventh').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogTwoBoxOne').on('click',function(){
+      var $dialogs = $('.dialogBoxTwoOptionOne').siblings();
+      var $active = $('.dialogBoxTwoOptionOne.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogBoxTwoOptionOne').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+    $('.dialogTwoBoxTwo').on('click',function(){
+      var $dialogs = $('.dialogBoxTwoOptionTwo').siblings();
+      var $active = $('.dialogBoxTwoOptionTwo.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogBoxTwoOptionTwo').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxEighth').on('click',function(){
+      var $dialogs = $('.dialogEighth').siblings();
+      var $active = $('.dialogEighth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogEighth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxNineth').on('click',function(){
+      var $dialogs = $('.dialogNineth').siblings();
+      var $active = $('.dialogNineth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogNineth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+
+// Wrong Answer Message and damage
+$('body').on('click', '.wrongAnswer', function(e){
+  e.preventDefault();
+ return mainCharacter.damage();
+});
+  $('body').on('click', '.wrongAnswer', function(e){
+    e.preventDefault();
+    alert("This answer is wrong! You have " + mainCharacter.life + " life left")
+
+  });
+
+
 // Music Toggle
   var $song = $('#song');
   var $songTwo = $('#songTwo');
   var $songThree = $('#songThree');
   var $songFour = $('#songFour');
-
+  var $songFive = $('#songFive');
+  var $songSix= $('#songSix')
   $song.trigger('play');
 
 
@@ -137,6 +210,17 @@ $(document).ready(function() {
     $songFour.trigger('play');
     });
 
+  $('body').on('click', '#nextSongRoomTwo', function () {
+    // document.getElementById('songThree').muted = false;
+    $songFour.trigger('pause');
+    $songFive.trigger('play');
+    });
+
+  $('body').on('click', '#nextSongRoomThree', function () {
+    // document.getElementById('songThree').muted = false;
+    $songFive.trigger('pause');
+    $songSix.trigger('play');
+    });
 
 
 });
