@@ -21,6 +21,15 @@ $(document).ready(function() {
     $('#OptionTwoScreenTwo').on('click', 'a', pageHandler);
   $('#eighthScreen').on('click', 'a', pageHandler);
   $('#ninethScreen').on('click', 'a', pageHandler);
+    $('#OptionThreeScreenOne').on('click', 'a', pageHandler);
+    $('#OptionThreeScreenTwo').on('click', 'a', pageHandler);
+  $('#tenthScreen').on('click', 'a', pageHandler);
+  $('#eleventhScreen').on('click', 'a', pageHandler);
+  $('#twelthScreen').on('click', 'a', pageHandler);
+  $('#thirteenthScreen').on('click', 'a', pageHandler);
+  $('#fourtenthScreen').on('click', 'a', pageHandler);
+  $('#fiftenthScreen').on('click', 'a', pageHandler);
+  $('#sixtenthScreen').on('click', 'a', pageHandler);
 
 
   // For moving through dialog
@@ -168,17 +177,119 @@ $(document).ready(function() {
       $newActive.addClass('active');
     });
 
+    $('.dialogBoxThreeOptionOne').on('click',function(){
+      var $dialogs = $('.dialogThreeOptionOne').siblings();
+      var $active = $('.dialogThreeOptionOne.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogThreeOptionOne').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxThreeOptionTwo').on('click',function(){
+      var $dialogs = $('.dialogThreeOptionTwo').siblings();
+      var $active = $('.dialogThreeOptionTwo.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogThreeOptionTwo').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxTenth').on('click',function(){
+      var $dialogs = $('.dialogTenth').siblings();
+      var $active = $('.dialogTenth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogTenth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxEleventh').on('click',function(){
+      var $dialogs = $('.dialogEleventh').siblings();
+      var $active = $('.dialogEleventh.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogEleventh').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxTwelth').on('click',function(){
+      var $dialogs = $('.dialogTwelth').siblings();
+      var $active = $('.dialogTwelth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogTwelth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxThirteenth').on('click',function(){
+      var $dialogs = $('.dialogThirteenth').siblings();
+      var $active = $('.dialogThirteenth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogThirteenth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxFourtenth').on('click',function(){
+      var $dialogs = $('.dialogFourtenth').siblings();
+      var $active = $('.dialogFourtenth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogFourtenth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxFiftenth').on('click',function(){
+      var $dialogs = $('.dialogFiftenth').siblings();
+      var $active = $('.dialogFiftenth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogFiftenth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
+    $('.dialogBoxSixtenth').on('click',function(){
+      var $dialogs = $('.dialogSixtenth').siblings();
+      var $active = $('.dialogSixtenth.active');
+      var $newActive = $active.next();
+      console.log($newActive);
+      $('.dialogSixtenth').siblings().each(function(idx) {
+        $(this).removeClass('active');
+      });
+      $newActive.addClass('active');
+    });
+
 
 // Wrong Answer Message and damage
+
+
 $('body').on('click', '.wrongAnswer', function(e){
   e.preventDefault();
- return mainCharacter.damage();
-});
-  $('body').on('click', '.wrongAnswer', function(e){
-    e.preventDefault();
-    alert("This answer is wrong! You have " + mainCharacter.life + " life left")
+  alert("This answer is wrong! You have " + mainCharacter.life + " life left")
 
-  });
+});
+
+$('body').on('click', '.endAnswer', function(e){
+  e.preventDefault();
+  return mainCharacter.endDamage();
+});
 
 
 // Music Toggle
@@ -187,7 +298,13 @@ $('body').on('click', '.wrongAnswer', function(e){
   var $songThree = $('#songThree');
   var $songFour = $('#songFour');
   var $songFive = $('#songFive');
-  var $songSix= $('#songSix')
+  var $songSix = $('#songSix');
+  var $songSeven = $('#songSeven');
+  var $songEight = $('#songEight');
+  var $songDark = $('#songDark');
+  var $songGood = $('#songGood');
+  var $songEvil = $('#songEvil');
+
   $song.trigger('play');
 
 
@@ -220,6 +337,36 @@ $('body').on('click', '.wrongAnswer', function(e){
     // document.getElementById('songThree').muted = false;
     $songFive.trigger('pause');
     $songSix.trigger('play');
+    });
+
+  $('body').on('click', '#nextSongRoomFour', function () {
+    // document.getElementById('songThree').muted = false;
+    $songSix.trigger('pause');
+    $songSeven.trigger('play');
+    });
+
+  $('body').on('click', '#nextSongChurchRoom', function () {
+    // document.getElementById('songThree').muted = false;
+    $songSeven.trigger('pause');
+    $songEight.trigger('play');
+    });
+
+  $('body').on('click', '#nextSongDark', function () {
+    // document.getElementById('songThree').muted = false;
+    $songEight.trigger('pause');
+    $songDark.trigger('play');
+    });
+
+  $('body').on('click', '#nextSongGood', function () {
+    // document.getElementById('songThree').muted = false;
+    $songEight.trigger('pause');
+    $songGood.trigger('play');
+    });
+
+  $('body').on('click', '#nextSongEvil', function () {
+    // document.getElementById('songThree').muted = false;
+    $songEight.trigger('pause');
+    $songEvil.trigger('play');
     });
 
 

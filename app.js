@@ -10,6 +10,13 @@ Character.prototype.damage = function() {
   this.hits += 1
 };
 
+Character.prototype.endDamage = function() {
+  var baseDamage = 100;
+  this.life -= this.hits * baseDamage;
+  this.isDead();
+  this.hits += 1
+};
+
 Character.prototype.isDead = function(){
   if(this.life <= 0){
     alert("You Died!");
