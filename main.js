@@ -370,7 +370,7 @@ $('body').on('click', '.endAnswer', function(e){
     // document.getElementById('songThree').muted = false;
     $songEight.trigger('pause');
     $songEvil.trigger('play');erv
-    });
+  });
 
 
 });
