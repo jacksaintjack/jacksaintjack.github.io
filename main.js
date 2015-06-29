@@ -282,10 +282,13 @@ $(document).ready(function() {
 
 $('body').on('click', '.wrongAnswer', function(e){
   e.preventDefault();
-  alert("This answer is wrong! You have " + mainCharacter.life + " life left")
-
+  return mainCharacter.damage();
 });
 
+$('body').on('click', '.wrongAnswer', function(e){
+  e.preventDefault();
+  alert("This answer is wrong! You have " + mainCharacter.life + " life left")
+});
 $('body').on('click', '.endAnswer', function(e){
   e.preventDefault();
   return mainCharacter.endDamage();
@@ -366,7 +369,7 @@ $('body').on('click', '.endAnswer', function(e){
   $('body').on('click', '#nextSongEvil', function () {
     // document.getElementById('songThree').muted = false;
     $songEight.trigger('pause');
-    $songEvil.trigger('play');
+    $songEvil.trigger('play');erv
     });
 
 

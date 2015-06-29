@@ -7,7 +7,7 @@ Character.prototype.damage = function() {
   var baseDamage = 5;
   this.life -= this.hits * baseDamage;
   this.isDead();
-  this.hits += 1
+  this.hits += 2;
 };
 
 Character.prototype.endDamage = function() {
