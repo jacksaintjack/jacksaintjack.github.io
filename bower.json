@@ -1,0 +1,21 @@
+{
+  "name": "jacksaintjack.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jacksaintjack/jacksaintjack.github.io",
+  "authors": [
+    "Nicholas Glover <jacksaintjack@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}
