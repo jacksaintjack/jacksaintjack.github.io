@@ -5,6 +5,7 @@
   background-size: cover;
   width:100%;
   height:12.5em;
+  margin:0;
 }
 /* Title Ribbon */
 .title {
@@ -128,7 +129,7 @@ input {
 
 /*Cycling quotes*/
 .randomQuotes{
-  width:110%;
+  width:100%;
   height:3em;
 }
 
@@ -138,11 +139,11 @@ input {
 	list-style:none;
 	}
 #quotes{
-  width: 59%;
+  width: 63%;
   font-size: 16px;
   line-height: 100%;
   float: left;
-  margin-left: 16%;
+  margin-left: 19%;
   margin-top: 1.5%;
   font-family: sans-serif;
   font-weight: 600;
@@ -163,11 +164,25 @@ input {
 
 /* Button Colors */
 .btn-primary {
-  background: #0099cc;
+  background: #78A4C1;
   color: #ffffff;
-
+}
 /* Content Area for home page */
 
 .contentAreaHome{
-  
+  width: 100%;
+  height: 80em;
+  background-color:#400D12;
+}
+
+.homeSectionOne{
+  width: 100%;
+  height: 23em;
+  margin-top:1%
+}
+
+.homePicture{
+  width: 100%;
+  height: 35em;
+  border-radius: 6%;
 }
