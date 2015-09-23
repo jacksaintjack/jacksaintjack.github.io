@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
-  height:13em;
+  height:12.5em;
 }
 /* Title Ribbon */
 .title {
@@ -94,7 +94,7 @@ input {
     position: relative;
     width: 100%;
     left: -16px;
-    padding: 0 16px 16px;
+    padding: 0 16px 6px;
     background: #d0726a;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d0726a), to(#c7574d));
     background-image: -webkit-linear-gradient(#d0726a, #c7574d);
@@ -138,12 +138,12 @@ input {
 	list-style:none;
 	}
 #quotes{
-  width: 60%;
+  width: 59%;
   font-size: 16px;
   line-height: 100%;
   float: left;
   margin-left: 16%;
-  margin-top: 2.5%;
+  margin-top: 1.5%;
   font-family: sans-serif;
   font-weight: 600;
   text-shadow: black 2px 4px 5px;
@@ -151,11 +151,23 @@ input {
 	}
 #quotes li{
 	padding:20px;
+  margin-left:1%;
 	display:none; /* hide the items at first only */
 	}
 
-  /* Style for the buttons */
-  .navBar{
+/* Style for the buttons */
+.navBar{
   margin-top:0.8em;
   height:auto;
-  }
+}
+
+/* Button Colors */
+.btn-primary {
+  background: #0099cc;
+  color: #ffffff;
+
+/* Content Area for home page */
+
+.contentAreaHome{
+  
+}

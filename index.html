@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel ="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
@@ -45,56 +45,38 @@
 </div>
   <!-- Navigation Bar -->
   <div class ="NavArea container-fluid">
-    <div class = "navRow">
-      <div class = "navBar col-xs-12 col-md-12 col-lg-12 text-center">
-        <button type="button" class="btn btn-default btn-md" aria-haspopup="true" aria-expanded="false">
-          Home
-        </button>
-        <button type="button" class="btn btn-default btn-md"  aria-haspopup="true" aria-expanded="false">
-          Programs
-        </button>
-        <button type="button" class="btn btn-default btn-md"  aria-haspopup="true" aria-expanded="false">
-          Volunteering
-        </button>
-
-        <div class="btn-group">
-          <button type="button" class="btn btn-default btn-md dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Affilates <span class="caret"></span>
-          </button>
-              <ul class="dropdown-menu">
-                <li><a href="#" rel="">Family Counceling Center</a></li>
-                <li><a href="#"rel="">MAD SAM</a></li>
-                <li><a href="#"rel="">Sponsors</a></li>
+    <div class = "navBar col-xs-12 col-md-12 col-lg-12 text-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">Programs</button>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Affilates <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Family Counceling Center</a></li>
+                <li><a href="#">MAD SAM</a></li>
+                <li><a href="#">Sponsors</a></li>
               </ul>
-        </div>
-
-        <button type="button" class="btn btn-default btn-md"  aria-haspopup="true" aria-expanded="false">
-          History
-        </button>
-
-        <button type="button" class="btn btn-default btn-md"  aria-haspopup="true" aria-expanded="false">
-          Past Events
-        </button>
-
-        <button type="button" class="btn btn-default btn-md "  aria-haspopup="true" aria-expanded="false">
-          En Español
-        </button>
-
-        <button type="button" class="btn btn-default btn-md "  aria-haspopup="true" aria-expanded="false">
-          Contact Us
-        </button>
-
-
-
-
+          </div>
+        <button type="button" class="btn btn-primary">History</button>
+        <button type="button" class="btn btn-primary">Gallery</button>
+        <button type="button" class="btn btn-primary">En Español</button>
+        <button type="button" class="btn btn-primary">Contact Us</button>
       </div>
     </div><!-- End of Row -->
   </div> <!-- End of container-->
 
-
+  <!-- Content area of home page -->
+  <div class ="contentAreaHome container-fluid">
+    <div class = "concentAreaHomeOne col-xs-6 col-md-6 col-lg-6">
+    </div>
+    <div class = "concentAreaHomeTwo col-xs-6 col-md-6 col-lg-6">
+    </div>
+  </div> <!-- end of content area -->
 
 
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
+  <script type="text/javascript" src="bower_components/bootstrap/js/dropdown.js"> </script>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

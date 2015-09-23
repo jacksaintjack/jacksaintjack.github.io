@@ -1,5 +1,4 @@
 
-
 this.randomquote = function(){
 var length = $("#quotes li").length;
 var ran = Math.floor(Math.random()*length) + 1;
