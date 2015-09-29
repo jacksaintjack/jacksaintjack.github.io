@@ -174,8 +174,8 @@ input {
 
 .contentAreaHome{
   width: 100%;
-  height: 90em;
-  background-color:#400D12;
+  height: 85em;
+  background-image: linear-gradient(rgb(104, 86, 86), #400D12);
 }
 
 .homeSectionOne{
@@ -254,12 +254,25 @@ input {
 }
 
 .footerTextBox{
-  margin-top: 4.1em;
+  margin-top: 2.5em;
+  color:black;
+}
+
+.bottomNav{
+  list-style:none;
+  margin-top:2em;
+}
+
+.bottomNav li{
+  display:inline;
+}
+
+.bottomNavWord{
   color:black;
 }
 /* Media Screens */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 100px) and (max-width: 1000px) {
   .contentAreaHome{
     height:100em;
   }
