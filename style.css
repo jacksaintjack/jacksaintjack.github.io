@@ -216,3 +216,34 @@ input {
   font-size: 1.5em;
   text-decoration: underline;
 }
+
+/* social media icons */
+.faceSquare{
+  color: #405D9B;
+}
+
+.twitSquare{
+  color: #659FCB;
+}
+
+.googSquare{
+  color: #DC4538;
+}
+
+.pinSquare{
+  color: #CB2027;
+}
+
+.iconColor{
+  color: white;
+}
+
+/* home page footer */
+.homeBottom{
+  width:100%;
+  height:4em;
+  background-color: #97B5CD;
+}
+.homeFooter{
+
+}
