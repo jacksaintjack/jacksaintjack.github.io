@@ -183,6 +183,36 @@ input {
 
 .homePicture{
   width: 100%;
-  height: 35em;
+  height: 36em;
   border-radius: 6%;
+  padding:0%;
+}
+
+.homePhoneNumber{
+  color:white;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+.homeSectionTwo{
+  margin-top:18em;
+}
+.concentAreaHomeTwo{
+  padding-left:1em;
+  color:white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border-right-style: double;
+}
+.concentAreaHomeThree{
+  padding-right:1em;
+  color:white;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.titleText{
+  color:white;
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-decoration: underline;
 }
