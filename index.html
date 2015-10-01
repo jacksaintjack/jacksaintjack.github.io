@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-
+  <div  class = "wrapperOne container-fluid page active">
     <div class ='landingPhoto'>
     <!-- Title -->
       <div class = "title">
@@ -19,7 +19,7 @@
       </div>
 
     <!-- quotes -->
-      <div class = 'randomQuotes wrapperOne page active'>
+      <div class = 'randomQuotes'>
         <ul id="quotes">
         	<li>"A journey of a thousand miles must begin with a single step."<br>
             -Lao Tzu
@@ -44,24 +44,24 @@
   </div>
 
     <!-- Content area of home page -->
-    <div class ="contentAreaHome container-fluid wrapperOne page active">
+    <div class ="contentAreaHome container-fluid">
       <div class ="NavArea container-fluid">
         <div class = "navBar col-xs-12 col-md-12 col-lg-12 text-center">
           <div class="btn-group">
-            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg">Home</a>
-            <a href = "#" rel = ".wrapperTwo" class="btn btn-primary btn-lg">Programs</a>
+            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg link">Home</a>
+            <a href = "#" rel = ".wrapperTwo" class="btn btn-primary btn-lg link">Programs</a>
               <div class="btn-group">
                 <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">
                 Affilates <span class="caret"></span></button>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="http://www.victory4families.org/">Family Counceling Center</a></li>
-                    <li><a href="#">MAD SAM</a></li>
+                    <li><a class = "link" href="#">MAD SAM</a></li>
                   </ul>
               </div>
-            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg">Gallery</a>
-            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg">En Español</a>
-            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg">Sponsors</a>
-            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg">Contact Us</a>
+            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg link">Gallery</a>
+            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg link">En Español</a>
+            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg link">Sponsors</a>
+            <a href = "#" rel = ".wrapperOne" class="btn btn-primary btn-lg link">Contact Us</a>
           </div>
         </div><!-- End of Row -->
       </div> <!-- End of container-->
@@ -139,9 +139,41 @@
         </div>
       </div>
     </div> <!-- end of content area -->
+  </div> <!-- end wrapper one -->
 
+  <!-- page for programs -->
+    <div class = "wrapperTwo container-fluid page">
+      <!-- Title -->
+      <div class = "title">
+            <h1 class= 'ribbon'>
+                <i><u><span class = 'title'>Contact Lifeline</span></u></i>
+            </h1>
+      </div>
 
+      <!-- quotes -->
+      <div class = 'randomQuotes'>
+        <ul id="quotes">
+        	<li>"A journey of a thousand miles must begin with a single step."<br>
+            -Lao Tzu
+          </li>
 
+        	<li>"Failure is only the opportunity to begin again, only this time more wisely."<br>
+            -Henry Ford
+          </li>
+
+        	<li>“Even the darkest night will end and the sun will rise.”<br>
+            -Victor Hugo, Les Misérables
+         </li>
+
+        	<li>"Fall seven times, stand up eight" <br>
+             – Japanese Proverb</li>
+
+        	<li>"We must accept finite disappointment, but we must never lose infinite hope."<br>
+            -Martin Luther King
+          </li>
+        </ul>
+      </div>
+    </div> <!-- End of wrapperTwo -->
 
   <!-- Footer Area (Used on every page) -->
     <div class = "homeBottom container-fluid">
@@ -158,30 +190,23 @@
       </div>
       <div class = "footerTextBox col-xs-8 col-md-8 col-lg-8 text-center">
         <ul class = "bottomNav">
-          <li class = "bottomNavWord"><a href="#" rel =".wrapperOne">Home</a><li>
+          <li><a class = "link" href="#" rel =".wrapperOne">Home</a><li>
           <li class = "dash"><span></span> | <span></span> </li>
-          <li ><a href="#" rel =".wrapperTwo">Programs</a><li>
+          <li><a class = "link" href="#" rel =".wrapperTwo">Programs</a><li>
           <li class = "dash"><span></span> | <span></span> </li>
-        <a href ="http://www.victory4families.org/"><li>Family Counciling Center</li></a>
+          <li><a class = "link" href ="http://www.victory4families.org/">Family Counciling Center</a></li>
           <li class = "dash"><span></span> | <span></span> </li>
-          <li><a href="#" rel ="#">MAD SAM</a></li>
+          <li><a class = "link" href="#" rel ="#">MAD SAM</a></li>
           <li class = "dash"><span></span> | <span></span> </li>
-          <li><a href="#" rel ="#">Gallery</a></li>
+          <li><a class = "link" href="#" rel ="#">Gallery</a></li>
           <li class = "dash"><span></span> | <span></span> </li>
-          <li><a href="#" rel ="#">En Español</a></li>
+          <li><a class = "link" href="#" rel ="#">En Español</a></li>
           <li class = "dash"><span></span> | <span></span> </li>
-          <li><a href="#" rel = "#">Sponsors</a></li>
+          <li><a class = "link" href="#" rel = "#">Sponsors</a></li>
           <li class = "dash"><span></span> | <span></span> </li>
-          <li><a href="#" rel ="#">Contact Us</a></li>
+          <li><a class = "link" href="#" rel ="#">Contact Us</a></li>
       </div>
     </div>
-
-<!-- page for programs -->
-  <div class = "wrapperTwo container-fluid page">
-    <div class ='landingPhoto'>
-    </div>
-
-  </div>
 
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"> </script>
   <script type="text/javascript" src="bower_components/bootstrap/js/dropdown.js"> </script>

@@ -15,8 +15,8 @@ var pageHandler = function(event){
   $(clickedPage).addClass('active');
 };
 
-  $('.wrapperOne').on('click', 'a', pageHandler);
-  $('.wrapperTwo').on('click', 'a', pageHandler);
+  $('.wrapperOne').on('click', '.link', pageHandler);
+  $('.wrapperTwo').on('click', '.link', pageHandler);
 
 
 // Used to cycle the quotes on page refresh
