@@ -276,11 +276,15 @@ input {
 
 .bottomNav li{
   display:inline;
+  color:black;
+  text-decoration: none;
 }
 
-.bottomNavWord{
+.bottomNav li a{
   color:black;
+  z-index: 1;
 }
+
 /* Media Screens */
 
 @media screen and (min-width: 100px) and (max-width: 1000px) {
