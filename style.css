@@ -1,7 +1,18 @@
-/* Landing Page Photo */
-.wrapperOne{
-  padding:0;
+/*Activates and deactivates pages*/
+.page{
+  display:none;
 }
+
+.active{
+  display:inline-block;
+}
+/*Wrapper margins and padding set to 0*/
+.wrapperOne{
+  margin:0;
+  padding: 0;
+}
+/* Landing Page Photo */
+
 .landingPhoto{
   background-image: url(pictures/SLV1WW5JAP.jpg);
   background-repeat: no-repeat;

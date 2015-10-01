@@ -16,8 +16,9 @@ var pageHandler = function(event){
 };
 
   $('.wrapperOne').on('click', 'a', pageHandler);
+  $('.wrapperTwo').on('click', 'a', pageHandler);
+
 
 // Used to cycle the quotes on page refresh
-
-	randomquote();
+randomquote();
 });
