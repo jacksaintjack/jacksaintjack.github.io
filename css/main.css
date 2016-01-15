@@ -1,0 +1,4840 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 3px #000000; }
+
+main {
+  background-image: url("http://i.ytimg.com/vi/qDxpIvovlOs/maxresdefault.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 64.5em;
+  margin: 0; }
+
+.mainArea {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  margin: 1.3em 4em;
+  height: 56em;
+  background-color: #0E1A66;
+  opacity: 0.95;
+  border-radius: 1%;
+  box-shadow: 0px 0px 5px 13px #3C3A3A inset; }
+  .mainArea:last-child {
+    margin-right: 0; }
+  .mainArea .contentArea {
+    border-radius: 1%;
+    border: 0.6em white solid;
+    box-shadow: 0px 0px 5px 4px #3C3A3A;
+    width: 100%;
+    height: 100%; }
+    .mainArea .contentArea .spriteImageOne {
+      background: url("../../assets/sprites/NickOneBig.png") left center;
+      margin: 4.5em 0 0 1.5em;
+      width: 180px;
+      height: 192px;
+      animation: spriteHome 0.7s steps(3) infinite;
+      float: left; }
+    .mainArea .contentArea .spriteImageTwo {
+      background: url("../../assets/sprites/NickTwoBig.png") left center;
+      margin: 4.5em 0 0 1.5em;
+      width: 180px;
+      height: 192px;
+      animation: spriteHome 0.7s steps(3) infinite;
+      float: left; }
+    .mainArea .contentArea .spriteImageThree {
+      background: url("../../assets/sprites/NickThreeBig.png") left center;
+      margin: 4.5em 0 0 1.5em;
+      width: 180px;
+      height: 192px;
+      animation: spriteHome 0.7s steps(3) infinite;
+      float: left; }
+
+@keyframes spriteHome {
+  100% {
+    background-position: -576px; } }
+    .mainArea .contentArea .charOne {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      color: white; }
+      .mainArea .contentArea .charOne:last-child {
+        margin-right: 0; }
+      .mainArea .contentArea .charOne .charStatsOne {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 40.29137%;
+        padding: 2.5em 0 0 3em; }
+        .mainArea .contentArea .charOne .charStatsOne:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .charOne .charStatsOne span {
+          font-size: 1.3em;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .mainArea .contentArea .charOne .charStatsOne span:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          font-size: 1.5em;
+          color: #759DEC;
+          float: left;
+          padding-bottom: 0.5em; }
+          .mainArea .contentArea .charOne .charStatsOne span:nth-child(2):last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charOne .charStatsOne .staminaBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          height: 1em;
+          background-color: black;
+          float: left;
+          margin: 0.2em 0 0.2em 0; }
+          .mainArea .contentArea .charOne .charStatsOne .staminaBar:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charOne .charStatsOne .willBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          height: 1em;
+          background-color: black;
+          float: left;
+          margin-top: 0.2em; }
+          .mainArea .contentArea .charOne .charStatsOne .willBar:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .charOne .charStatsTwo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        padding-top: 7.1em; }
+        .mainArea .contentArea .charOne .charStatsTwo:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+          color: #759DEC;
+          padding-bottom: 0.5em; }
+        .mainArea .contentArea .charOne .charStatsTwo span {
+          font-size: 1.3em;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .mainArea .contentArea .charOne .charStatsTwo span:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charOne .charStatsTwo .experienceBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          background-color: black;
+          height: 1em;
+          float: left; }
+          .mainArea .contentArea .charOne .charStatsTwo .experienceBar:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .charOne .curStamina {
+        width: 87%;
+        height: 100%;
+        background-color: green; }
+      .mainArea .contentArea .charOne .curWill {
+        width: 93%;
+        height: 100%;
+        background-color: green; }
+      .mainArea .contentArea .charOne .curExp {
+        background-color: green;
+        width: 34%;
+        height: 100%; }
+    .mainArea .contentArea .charTwo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      color: white; }
+      .mainArea .contentArea .charTwo:last-child {
+        margin-right: 0; }
+      .mainArea .contentArea .charTwo .charStatsOne {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 40.29137%;
+        padding: 2.5em 0 0 3em; }
+        .mainArea .contentArea .charTwo .charStatsOne:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .charTwo .charStatsOne span {
+          font-size: 1.3em;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .mainArea .contentArea .charTwo .charStatsOne span:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          font-size: 1.5em;
+          color: #759DEC;
+          float: left;
+          padding-bottom: 0.5em; }
+          .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2):last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charTwo .charStatsOne .staminaBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          height: 1em;
+          background-color: black;
+          float: left;
+          margin: 0.2em 0 0.2em 0; }
+          .mainArea .contentArea .charTwo .charStatsOne .staminaBar:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charTwo .charStatsOne .willBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          height: 1em;
+          background-color: black;
+          float: left;
+          margin-top: 0.2em; }
+          .mainArea .contentArea .charTwo .charStatsOne .willBar:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .charTwo .charStatsTwo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        padding-top: 7.1em; }
+        .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+          color: #759DEC;
+          padding-bottom: 0.5em; }
+        .mainArea .contentArea .charTwo .charStatsTwo span {
+          font-size: 1.3em;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .mainArea .contentArea .charTwo .charStatsTwo span:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charTwo .charStatsTwo .experienceBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          background-color: black;
+          height: 1em;
+          float: left; }
+          .mainArea .contentArea .charTwo .charStatsTwo .experienceBar:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .charTwo .curStamina {
+        width: 95%;
+        height: 100%;
+        background-color: green; }
+      .mainArea .contentArea .charTwo .curWill {
+        width: 85%;
+        height: 100%;
+        background-color: green; }
+      .mainArea .contentArea .charTwo .curExp {
+        background-color: green;
+        width: 82%;
+        height: 100%; }
+    .mainArea .contentArea .charThree {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      color: white; }
+      .mainArea .contentArea .charThree:last-child {
+        margin-right: 0; }
+      .mainArea .contentArea .charThree .charStatsOne {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 40.29137%;
+        padding: 2.5em 0 0 3em; }
+        .mainArea .contentArea .charThree .charStatsOne:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .charThree .charStatsOne span {
+          font-size: 1.3em;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .mainArea .contentArea .charThree .charStatsOne span:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          font-size: 1.5em;
+          color: #759DEC;
+          float: left;
+          padding-bottom: 0.5em; }
+          .mainArea .contentArea .charThree .charStatsOne span:nth-child(2):last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charThree .charStatsOne .staminaBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          height: 1em;
+          background-color: black;
+          float: left;
+          margin: 0.2em 0 0.2em 0; }
+          .mainArea .contentArea .charThree .charStatsOne .staminaBar:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charThree .charStatsOne .willBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          height: 1em;
+          background-color: black;
+          float: left;
+          margin-top: 0.2em; }
+          .mainArea .contentArea .charThree .charStatsOne .willBar:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .charThree .charStatsTwo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        padding-top: 7.1em; }
+        .mainArea .contentArea .charThree .charStatsTwo:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+          color: #759DEC;
+          padding-bottom: 0.5em; }
+        .mainArea .contentArea .charThree .charStatsTwo span {
+          font-size: 1.3em;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .mainArea .contentArea .charThree .charStatsTwo span:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .charThree .charStatsTwo .experienceBar {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          background-color: black;
+          height: 1em;
+          float: left; }
+          .mainArea .contentArea .charThree .charStatsTwo .experienceBar:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .charThree .curStamina {
+        width: 86%;
+        height: 100%;
+        background-color: green; }
+      .mainArea .contentArea .charThree .curWill {
+        width: 93%;
+        height: 100%;
+        background-color: green; }
+      .mainArea .contentArea .charThree .curExp {
+        background-color: green;
+        width: 59%;
+        height: 100%; }
+    .mainArea .contentArea h1 {
+      color: white;
+      margin-left: 1.4em; }
+    .mainArea .contentArea #journeyArea p {
+      color: white;
+      font-size: 1.5em;
+      margin: 1em 3em 0 2em; }
+    .mainArea .contentArea #journeyArea p:nth-child(1) {
+      margin-right: 13em; }
+    .mainArea .contentArea .timelineText {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin: 1% 0 4% 7%;
+      height: 50%;
+      background-color: #0E1A66;
+      opacity: 0.95;
+      border-radius: 1%;
+      box-shadow: 0px 0px 5px 13px #3C3A3A inset; }
+      .mainArea .contentArea .timelineText:last-child {
+        margin-right: 0; }
+      .mainArea .contentArea .timelineText div {
+        padding: 3% 3% 0% 3%;
+        border-radius: 1%;
+        border: 0.6em white solid;
+        box-shadow: 0px 0px 5px 4px #3C3A3A;
+        width: 100%;
+        height: 100%; }
+        .mainArea .contentArea .timelineText div h1 {
+          margin: 15% 5% 0em 5%;
+          text-align: center; }
+        .mainArea .contentArea .timelineText div h2 {
+          color: white; }
+        .mainArea .contentArea .timelineText div h2:nth-child(1) {
+          margin-bottom: 0%; }
+        .mainArea .contentArea .timelineText div h2:nth-child(2) {
+          margin-top: 0%; }
+        .mainArea .contentArea .timelineText div h2:nth-child(3) {
+          margin-top: 0%; }
+        .mainArea .contentArea .timelineText div .degreeTitle {
+          margin-bottom: 0; }
+        .mainArea .contentArea .timelineText div p {
+          color: white;
+          font-size: 1.3em; }
+      .mainArea .contentArea .timelineText .arrowDown {
+        position: relative;
+        top: 2em;
+        width: 0;
+        height: 0;
+        margin: 0 0 0 42%;
+        border-left: 4em solid transparent;
+        border-right: 4em solid transparent;
+        border-top: 4em solid #CEBA3A;
+        opacity: 1; }
+    .mainArea .contentArea .timeline {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 71.85165%;
+      margin-left: 4.2649%;
+      height: 18em;
+      background-color: #0E1A66;
+      opacity: 0.95;
+      border-radius: 1%;
+      box-shadow: 0px 0px 5px 13px #3C3A3A inset; }
+      .mainArea .contentArea .timeline:last-child {
+        margin-right: 0; }
+      .mainArea .contentArea .timeline .timelineArea {
+        border-radius: 1%;
+        border: 0.6em white solid;
+        box-shadow: 0px 0px 5px 4px #3C3A3A;
+        width: 100%;
+        height: 100%; }
+        .mainArea .contentArea .timeline .timelineArea .mainLine {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 95.7351%;
+          margin-left: 2.13245%;
+          height: 1em;
+          background-color: #0F022B;
+          position: relative;
+          top: 43%; }
+          .mainArea .contentArea .timeline .timelineArea .mainLine:last-child {
+            margin-right: 0; }
+        .mainArea .contentArea .timeline .timelineArea .firstStop {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 23.23176%;
+          height: 10em; }
+          .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+            margin-right: 0; }
+          .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+            background: url("../../assets/sprites/NickCollege.png") left center;
+            width: 100px;
+            height: 95px;
+            animation: spriteTimeLine 0.7s steps(3) infinite;
+            float: left;
+            margin-left: 27.29537%; }
+        .mainArea .contentArea .timeline .timelineArea .ticklineOne {
+          height: 2.5em;
+          background-color: #0F022B;
+          width: 0.4em;
+          float: left;
+          margin: 7% 0 0 46%; }
+        .mainArea .contentArea .timeline .timelineArea .ta {
+          color: white;
+          font-size: 2em;
+          float: left;
+          margin-top: 3%;
+          float: left;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          text-align: center; }
+          .mainArea .contentArea .timeline .timelineArea .ta:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .timeline .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        height: 10em; }
+        .mainArea .contentArea .timeline .secondStop:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .timeline .secondStop .spriteSecond {
+          background: url("../../assets/sprites/NickGraduation.png") left center;
+          width: 100px;
+          height: 95px;
+          animation: spriteTimeLine 0.7s steps(3) infinite;
+          float: left;
+          margin-left: 27.29537%; }
+        .mainArea .contentArea .timeline .secondStop .ticklineTwo {
+          height: 2.5em;
+          background-color: #0F022B;
+          width: 0.4em;
+          float: left;
+          margin: 7% 0 0 46%; }
+        .mainArea .contentArea .timeline .secondStop .unv {
+          color: white;
+          font-size: 2em;
+          float: left;
+          margin-top: 3%;
+          float: left;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          text-align: center; }
+          .mainArea .contentArea .timeline .secondStop .unv:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .timeline .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        height: 10em; }
+        .mainArea .contentArea .timeline .thirdStop:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .timeline .thirdStop .spriteThird {
+          background: url("../../assets/sprites/NickCookeville.png") left center;
+          width: 100px;
+          height: 95px;
+          animation: spriteTimeLine 0.7s steps(3) infinite;
+          float: left;
+          margin-left: 26.86888%; }
+        .mainArea .contentArea .timeline .thirdStop .ticklineThree {
+          height: 2.5em;
+          background-color: #0F022B;
+          width: 0.4em;
+          float: left;
+          margin: 7% 0 0 46%; }
+        .mainArea .contentArea .timeline .thirdStop .coc {
+          color: white;
+          font-size: 2em;
+          float: left;
+          margin-top: 3%;
+          float: left;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          text-align: center; }
+          .mainArea .contentArea .timeline .thirdStop .coc:last-child {
+            margin-right: 0; }
+      .mainArea .contentArea .timeline .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        height: 10em; }
+        .mainArea .contentArea .timeline .fourthStop:last-child {
+          margin-right: 0; }
+        .mainArea .contentArea .timeline .fourthStop .spriteFourth {
+          background: url("../../assets/sprites/NickIronYard.png") left center;
+          width: 100px;
+          height: 95px;
+          animation: spriteTimeLine 0.7s steps(3) infinite;
+          float: left;
+          margin-left: 26.86888%; }
+        .mainArea .contentArea .timeline .fourthStop .ticklineFourth {
+          height: 2.5em;
+          background-color: #0F022B;
+          width: 0.4em;
+          float: left;
+          margin: 7% 0 0 46%; }
+        .mainArea .contentArea .timeline .fourthStop .iy {
+          color: white;
+          font-size: 2em;
+          float: left;
+          margin-top: 3%;
+          float: left;
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          text-align: center; }
+          .mainArea .contentArea .timeline .fourthStop .iy:last-child {
+            margin-right: 0; }
+
+@keyframes spriteTimeLine {
+  100% {
+    background-position: -288px; } }
+  .mainArea .charPic {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background-color: #0E1A66;
+    opacity: 0.95;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+    margin: 2% 0 0 2%;
+    height: 15em; }
+    .mainArea .charPic:last-child {
+      margin-right: 0; }
+    .mainArea .charPic div {
+      border-radius: 1%;
+      border: 0.6em white solid;
+      box-shadow: 0px 0px 5px 4px #3C3A3A;
+      width: 100%;
+      height: 100%; }
+      .mainArea .charPic div img {
+        width: 40%;
+        height: 50;
+        margin: 14% 0 0 29%; }
+  .mainArea .charEquippedSkills {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    background-color: #0E1A66;
+    opacity: 0.95;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+    margin: 2% 0 0 2%;
+    height: 15em; }
+    .mainArea .charEquippedSkills:last-child {
+      margin-right: 0; }
+    .mainArea .charEquippedSkills div {
+      border-radius: 1%;
+      border: 0.6em white solid;
+      box-shadow: 0px 0px 5px 4px #3C3A3A;
+      width: 100%;
+      height: 100%;
+      color: white;
+      padding-left: 2%; }
+      .mainArea .charEquippedSkills div ul {
+        float: left;
+        margin-top: 2%;
+        list-style: none;
+        font-size: 1.5em;
+        padding-left: 3%; }
+        .mainArea .charEquippedSkills div ul li {
+          padding-bottom: 8%; }
+        .mainArea .charEquippedSkills div ul span {
+          position: relative;
+          bottom: 0.2em; }
+      .mainArea .charEquippedSkills div ul:nth-child(2) {
+        padding-left: 0; }
+  .mainArea .charStats {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background-color: #0E1A66;
+    opacity: 0.95;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+    margin: 2% 0 0 2%;
+    height: 31.7em; }
+    .mainArea .charStats:last-child {
+      margin-right: 0; }
+    .mainArea .charStats div {
+      border-radius: 1%;
+      border: 0.6em white solid;
+      box-shadow: 0px 0px 5px 4px #3C3A3A;
+      width: 100%;
+      height: 100%;
+      width: 100%;
+      height: 100%;
+      color: white;
+      padding-left: 5%; }
+      .mainArea .charStats div p {
+        font-size: 1.5em;
+        margin: 3% 0 3% 0; }
+  .mainArea .charMisc {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    background-color: #0E1A66;
+    opacity: 0.95;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+    margin: 2% 0 0 2%;
+    height: 15em; }
+    .mainArea .charMisc:last-child {
+      margin-right: 0; }
+    .mainArea .charMisc div {
+      border-radius: 1%;
+      border: 0.6em white solid;
+      box-shadow: 0px 0px 5px 4px #3C3A3A;
+      width: 100%;
+      height: 100%;
+      color: white;
+      padding-left: 2%; }
+      .mainArea .charMisc div ul {
+        float: left;
+        margin-top: 2%;
+        list-style: none;
+        font-size: 1.5em;
+        padding-left: 3%; }
+        .mainArea .charMisc div ul li {
+          padding-bottom: 8%; }
+        .mainArea .charMisc div ul span {
+          position: relative;
+          bottom: 0.2em; }
+      .mainArea .charMisc div ul:nth-child(2) {
+        padding-left: 0; }
+  .mainArea .charEquip {
+    position: relative;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    background-color: #0E1A66;
+    opacity: 0.95;
+    border-radius: 1%;
+    box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+    margin: 2% 0 0 2%;
+    height: 15em; }
+    .mainArea .charEquip:last-child {
+      margin-right: 0; }
+    .mainArea .charEquip div {
+      border-radius: 1%;
+      border: 0.6em white solid;
+      box-shadow: 0px 0px 5px 4px #3C3A3A;
+      width: 100%;
+      height: 100%;
+      color: white;
+      padding-left: 2%; }
+      .mainArea .charEquip div ul {
+        float: left;
+        margin-top: 2%;
+        list-style: none;
+        font-size: 1.5em;
+        padding-left: 3%; }
+        .mainArea .charEquip div ul li {
+          padding-bottom: 8%; }
+        .mainArea .charEquip div ul span {
+          position: relative;
+          bottom: 0.2em; }
+      .mainArea .charEquip div ul:nth-child(2) {
+        padding-left: 0; }
+      .mainArea .charEquip div ul {
+        padding-left: 7%; }
+      .mainArea .charEquip div span {
+        left: 4%; }
+  .mainArea .firstProject {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 26.64368%;
+    color: white;
+    height: 20em;
+    margin: 2% 0 2% 3%; }
+    .mainArea .firstProject:last-child {
+      margin-right: 0; }
+    .mainArea .firstProject section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-color: #0E1A66;
+      opacity: 0.95;
+      border-radius: 1%;
+      box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+      height: 20em; }
+      .mainArea .firstProject section:last-child {
+        margin-right: 0; }
+      .mainArea .firstProject section div {
+        border-radius: 1%;
+        border: 0.6em white solid;
+        box-shadow: 0px 0px 5px 4px #3C3A3A;
+        width: 100%;
+        height: 100%; }
+    .mainArea .firstProject h2 {
+      text-align: center;
+      margin-bottom: 2%; }
+    .mainArea .firstProject h3 {
+      text-align: center;
+      margin: 1% 0 2% 0; }
+    .mainArea .firstProject section {
+      width: 100%;
+      height: 100%; }
+      .mainArea .firstProject section div {
+        background-image: url("../../assets/pictures/calculator.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
+  .mainArea .secondProject {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 26.64368%;
+    color: white;
+    height: 20em;
+    margin: 2% 0 2% 3%; }
+    .mainArea .secondProject:last-child {
+      margin-right: 0; }
+    .mainArea .secondProject section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-color: #0E1A66;
+      opacity: 0.95;
+      border-radius: 1%;
+      box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+      height: 20em; }
+      .mainArea .secondProject section:last-child {
+        margin-right: 0; }
+      .mainArea .secondProject section div {
+        border-radius: 1%;
+        border: 0.6em white solid;
+        box-shadow: 0px 0px 5px 4px #3C3A3A;
+        width: 100%;
+        height: 100%; }
+    .mainArea .secondProject h2 {
+      text-align: center;
+      margin-bottom: 2%; }
+    .mainArea .secondProject h3 {
+      text-align: center;
+      margin: 1% 0 2% 0; }
+    .mainArea .secondProject section {
+      width: 100%;
+      height: 100%; }
+      .mainArea .secondProject section div {
+        background-image: url("../../assets/pictures/bid.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
+  .mainArea .thirdProject {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 26.64368%;
+    color: white;
+    height: 20em;
+    margin: 2% 0 2% 3%; }
+    .mainArea .thirdProject:last-child {
+      margin-right: 0; }
+    .mainArea .thirdProject section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-color: #0E1A66;
+      opacity: 0.95;
+      border-radius: 1%;
+      box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+      height: 20em; }
+      .mainArea .thirdProject section:last-child {
+        margin-right: 0; }
+      .mainArea .thirdProject section div {
+        border-radius: 1%;
+        border: 0.6em white solid;
+        box-shadow: 0px 0px 5px 4px #3C3A3A;
+        width: 100%;
+        height: 100%; }
+    .mainArea .thirdProject h2 {
+      text-align: center;
+      margin-bottom: 2%; }
+    .mainArea .thirdProject h3 {
+      text-align: center;
+      margin: 1% 0 2% 0; }
+    .mainArea .thirdProject section {
+      width: 100%;
+      height: 100%; }
+      .mainArea .thirdProject section div {
+        background-image: url("../../assets/pictures/github.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
+  .mainArea .fourthProject {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 26.64368%;
+    color: white;
+    height: 20em;
+    margin: 2% 0 2% 3%;
+    margin-top: 10%; }
+    .mainArea .fourthProject:last-child {
+      margin-right: 0; }
+    .mainArea .fourthProject section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-color: #0E1A66;
+      opacity: 0.95;
+      border-radius: 1%;
+      box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+      height: 20em; }
+      .mainArea .fourthProject section:last-child {
+        margin-right: 0; }
+      .mainArea .fourthProject section div {
+        border-radius: 1%;
+        border: 0.6em white solid;
+        box-shadow: 0px 0px 5px 4px #3C3A3A;
+        width: 100%;
+        height: 100%; }
+    .mainArea .fourthProject h2 {
+      text-align: center;
+      margin-bottom: 2%; }
+    .mainArea .fourthProject h3 {
+      text-align: center;
+      margin: 1% 0 2% 0; }
+    .mainArea .fourthProject section {
+      width: 100%;
+      height: 100%; }
+      .mainArea .fourthProject section div {
+        background-image: url("../../assets/pictures/skateboard.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
+  .mainArea .fifthProject {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 26.64368%;
+    color: white;
+    height: 20em;
+    margin: 2% 0 2% 3%;
+    margin-top: 10%; }
+    .mainArea .fifthProject:last-child {
+      margin-right: 0; }
+    .mainArea .fifthProject section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-color: #0E1A66;
+      opacity: 0.95;
+      border-radius: 1%;
+      box-shadow: 0px 0px 5px 13px #3C3A3A inset;
+      height: 20em; }
+      .mainArea .fifthProject section:last-child {
+        margin-right: 0; }
+      .mainArea .fifthProject section div {
+        border-radius: 1%;
+        border: 0.6em white solid;
+        box-shadow: 0px 0px 5px 4px #3C3A3A;
+        width: 100%;
+        height: 100%; }
+    .mainArea .fifthProject h2 {
+      text-align: center;
+      margin-bottom: 2%; }
+    .mainArea .fifthProject h3 {
+      text-align: center;
+      margin: 1% 0 2% 0; }
+    .mainArea .fifthProject section {
+      width: 100%;
+      height: 100%; }
+      .mainArea .fifthProject section div {
+        background-image: url("../../assets/pictures/thisSite.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat; }
+
+.menuArea {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  background-color: #0E1A66;
+  opacity: 0.95;
+  border-radius: 2%;
+  height: 21.7em;
+  position: absolute;
+  right: 4%;
+  top: 3em;
+  box-shadow: 0px 0px 5px 13px #3C3A3A inset; }
+  .menuArea:last-child {
+    margin-right: 0; }
+  .menuArea ul {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 2%;
+    border: 0.4em white solid;
+    box-shadow: 0px 0px 5px 4px #3C3A3A;
+    padding: 0.5em 0 0 0.5em;
+    list-style-type: none; }
+    .menuArea ul a {
+      line-height: 1.6em;
+      color: white;
+      text-decoration: none;
+      width: 80%; }
+      .menuArea ul a div {
+        width: 1.3em;
+        height: 1.3em;
+        background-image: url("../../assets/sprites/Rupee.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        float: left;
+        margin-top: 0.5%; }
+      .menuArea ul a li {
+        border: 0.1em rgba(148, 148, 148, 0) solid; }
+    .menuArea ul li:hover {
+      border: 0.1em white solid;
+      background-color: rgba(128, 128, 128, 0.48); }
+
+.profileInfo {
+  position: absolute;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  right: 4%;
+  top: 40em;
+  border-radius: 2%;
+  border: 0.6em white solid;
+  height: 14em;
+  box-shadow: 0px 0px 5px 3px #3C3A3A; }
+  .profileInfo:last-child {
+    margin-right: 0; }
+  .profileInfo .creator {
+    width: 100%;
+    height: 100%;
+    background-color: #0E1A66;
+    float: right;
+    opacity: 0.95;
+    box-shadow: 0px 0px 5px 3px #3C3A3A inset;
+    color: white; }
+    .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 56.498%; }
+      .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      .profileInfo .creator section h2 {
+        margin: 0;
+        padding: 1em 0 0 0.5em; }
+      .profileInfo .creator section h3 {
+        margin: 0;
+        padding-left: 0.6em; }
+      .profileInfo .creator section .location {
+        padding-top: 1.5em; }
+    .profileInfo .creator img {
+      position: absolute;
+      border-radius: 20%;
+      height: 9em;
+      width: 12em;
+      left: 22em;
+      top: 1.6em; }
+    @media (max-width: 1800px) {
+      .profileInfo .creator img {
+        left: 19.5em; } }
+
+.projectArea {
+  height: 62em; }
+
+@media only screen and (max-width: 1680px) {
+  main .mainArea .contentArea .timelineText {
+    font-size: 0.9em; }
+    main .mainArea .contentArea .timelineText div h1 {
+      margin-top: 20%; }
+    main .mainArea .contentArea .timelineText div .arrowDown {
+      margin-left: 42.7%; }
+  main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+    margin-left: 27%; }
+  main .mainArea .contentArea .timeline .timelineArea .firstStop .ta {
+    font-size: 1.4em; }
+  main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+    margin-left: 27%; }
+  main .mainArea .contentArea .timeline .timelineArea .secondStop .unv {
+    font-size: 1.4em; }
+  main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+    margin-left: 27%; }
+  main .mainArea .contentArea .timeline .timelineArea .thirdStop .coc {
+    font-size: 1.4em; }
+  main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+    margin-left: 27%; }
+  main .mainArea .contentArea .timeline .timelineArea .fourthStop .iy {
+    font-size: 1.4em; }
+  main .mainArea .contentArea h1 {
+    color: white;
+    margin-left: 1.4em; }
+  main .mainArea .contentArea #journeyArea p {
+    color: white;
+    margin: 1.4em 3em 0 2em;
+    font-size: 1.3em; }
+  main .mainArea .contentArea #journeyArea p:nth-child(1) {
+    margin-right: 13em; }
+  main .mainArea .contentArea .charPic div img {
+    margin-top: 25%; }
+  main .mainArea .contentArea .charEquippedSkills {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 54.79204%; }
+    main .mainArea .contentArea .charEquippedSkills:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .charEquippedSkills div ul {
+      font-size: 1.2em; }
+  main .mainArea .contentArea .charStats div p {
+    font-size: 1.2em;
+    margin: 3% 0 3% 0;
+    line-height: 2em; }
+  main .mainArea .contentArea .charMisc {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 54.79204%; }
+    main .mainArea .contentArea .charMisc:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .charMisc div ul {
+      font-size: 1.2em; }
+  main .mainArea .contentArea .charEquip {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 54.79204%; }
+    main .mainArea .contentArea .charEquip:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .charEquip div ul {
+      font-size: 1.2em; }
+    main .mainArea .contentArea .charEquip div img {
+      height: 1.6em;
+      width: 1.6em; }
+  main .mainArea .contentArea .firstProject {
+    height: 18em; }
+  main .mainArea .contentArea .secondProject {
+    height: 18em; }
+  main .mainArea .contentArea .thirdProject {
+    height: 18em; }
+  main .mainArea .contentArea .fourthProject {
+    height: 18em; }
+  main .mainArea .contentArea .fifthProject {
+    height: 18em; }
+  .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 27.49666%;
+    right: 2%; }
+    .menuArea:last-child {
+      margin-right: 0; }
+    .menuArea ul {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding-left: 0;
+      color: white;
+      font-size: 1.5em;
+      border-radius: 2%;
+      border: 0.4em white solid;
+      box-shadow: 0px 0px 5px 4px #3C3A3A;
+      padding: 0.5em 0 0 0.5em;
+      list-style-type: none; }
+      .menuArea ul a {
+        line-height: 1.6em;
+        color: white;
+        text-decoration: none;
+        width: 80%; }
+        .menuArea ul a div {
+          width: 1.3em;
+          height: 1.3em;
+          background-image: url("../../assets/sprites/Rupee.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+          float: left;
+          margin-top: 0.5%; }
+        .menuArea ul a li {
+          border: 0.1em rgba(148, 148, 148, 0) solid; }
+      .menuArea ul li:hover {
+        border: 0.1em white solid;
+        background-color: rgba(128, 128, 128, 0.48); }
+  .profileInfo {
+    position: absolute;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 36.02647%;
+    right: 2%;
+    top: 40em;
+    border-radius: 2%;
+    border: 0.6em white solid;
+    height: 14em;
+    box-shadow: 0px 0px 5px 3px #3C3A3A; }
+    .profileInfo:last-child {
+      margin-right: 0; }
+    .profileInfo .creator {
+      width: 100%;
+      height: 100%;
+      background-color: #0E1A66;
+      float: right;
+      opacity: 0.95;
+      box-shadow: 0px 0px 5px 3px #3C3A3A inset;
+      color: white; }
+      .profileInfo .creator section {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 53.08608%; }
+        .profileInfo .creator section:last-child {
+          margin-right: 0; }
+        .profileInfo .creator section h2 {
+          margin: 0;
+          padding: 1em 0 0 0.5em; }
+        .profileInfo .creator section h3 {
+          margin: 0;
+          padding-left: 0.6em; }
+        .profileInfo .creator section .location {
+          padding-top: 1.5em; }
+      .profileInfo .creator img {
+        position: absolute;
+        border-radius: 20%;
+        height: 9em;
+        width: 12em;
+        left: 21em;
+        top: 1.6em; } }
+    @media only screen and (max-width: 1680px) and (max-width: 1550px) {
+      .profileInfo .creator img {
+        left: 19em; } }
+
+@media only screen and (max-width: 1680px) {
+  .projectArea {
+    height: 58em; } }
+
+@media only screen and (max-width: 1500px) {
+  main section .mainArea .contentArea .spriteImageOne {
+    background: url("../../assets/sprites/NickOneMedium.png") left center;
+    margin: 7.5em 0 0 1.5em;
+    width: 130px;
+    height: 129px;
+    animation: spriteTimeLineMedium 0.7s steps(3) infinite;
+    float: left; }
+  main section .mainArea .contentArea .spriteImageTwo {
+    background: url("../../assets/sprites/NickTwoMedium.png") left center;
+    margin: 7.5em 0 0 1.5em;
+    width: 130px;
+    height: 129px;
+    animation: spriteTimeLineMedium 0.7s steps(3) infinite;
+    float: left; }
+  main section .mainArea .contentArea .spriteImageThree {
+    background: url("../../assets/sprites/NickThreeMedium.png") left center;
+    margin: 7.5em 0 0 1.5em;
+    width: 130px;
+    height: 128px;
+    animation: spriteTimeLineMedium 0.7s steps(3) infinite;
+    float: left; }
+  @keyframes spriteTimeLineMedium {
+    100% {
+      background-position: -384px; } }
+  main section .mainArea .contentArea .charOne {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    main section .mainArea .contentArea .charOne:last-child {
+      margin-right: 0; }
+  main section .mainArea .contentArea .charTwo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    main section .mainArea .contentArea .charTwo:last-child {
+      margin-right: 0; }
+  main section .mainArea .contentArea .charThree {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    main section .mainArea .contentArea .charThree:last-child {
+      margin-right: 0; }
+  main .mainArea .contentArea .charOne {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%; }
+    main .mainArea .contentArea .charOne:last-child {
+      margin-right: 0; }
+  main .mainArea .contentArea .charTwo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%; }
+    main .mainArea .contentArea .charTwo:last-child {
+      margin-right: 0; }
+  main .mainArea .contentArea .charThree {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%; }
+    main .mainArea .contentArea .charThree:last-child {
+      margin-right: 0; }
+  main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+    margin-left: 25%; }
+  main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+    margin-left: 25%; }
+  main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+    margin-left: 25%; }
+  main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+    margin-left: 25%; }
+  main .mainArea .contentArea .firstProject {
+    height: 16em; }
+  main .mainArea .contentArea .secondProject {
+    height: 16em; }
+  main .mainArea .contentArea .thirdProject {
+    height: 16em; }
+  main .mainArea .contentArea .fourthProject {
+    height: 16em;
+    margin-top: 16%; }
+  main .mainArea .contentArea .fifthProject {
+    margin-top: 16%;
+    height: 16em; }
+  main .mainArea .contentArea .charPic div img {
+    margin-top: 20%; }
+  main .mainArea .contentArea .charEquippedSkills div ul {
+    font-size: 1.2em; }
+  main .mainArea .contentArea .charStats div p {
+    font-size: 1.25em;
+    margin: 3% 0 3% 0; }
+  main .mainArea .contentArea .charMisc div ul {
+    font-size: 1.2em; }
+  main .mainArea .contentArea .charEquip div ul {
+    font-size: 1.2em; }
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 27.49666%;
+    height: 19em;
+    right: 2%; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.4em; }
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    right: 2%; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator section h2 {
+      font-size: 1.3em; }
+    main .profileInfo .creator section h3 {
+      font-size: 1.1em; }
+    main .profileInfo .creator img {
+      height: 8.5em;
+      width: 11.5em;
+      position: relative;
+      left: 1em;
+      bottom: 12em; }
+  .projectArea {
+    height: 55em; } }
+
+@media only screen and (max-width: 1380px) {
+  main section .mainArea .contentArea .spriteImageOne {
+    margin: 5.8em 0 0 0.8em; }
+  main section .mainArea .contentArea .spriteImageTwo {
+    margin: 5.8em 0 0 0.8em; }
+  main section .mainArea .contentArea .spriteImageThree {
+    margin: 5.8em 0 0 0.8em; }
+  main section .mainArea .contentArea .charOne .charStatsOne {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-top: 0;
+    margin-right: 0; }
+    main section .mainArea .contentArea .charOne .charStatsOne:last-child {
+      margin-right: 0; }
+    main section .mainArea .contentArea .charOne .charStatsOne h2 {
+      font-size: 1.2em; }
+    main section .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+      font-size: 1.3em; }
+    main section .mainArea .contentArea .charOne .charStatsOne span {
+      font-size: 1em; }
+  main section .mainArea .contentArea .charOne .charStatsTwo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-top: 1em; }
+    main section .mainArea .contentArea .charOne .charStatsTwo:last-child {
+      margin-right: 0; }
+    main section .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+      font-size: 1.3em; }
+    main section .mainArea .contentArea .charOne .charStatsTwo span {
+      font-size: 1em; }
+  main section .mainArea .contentArea .charTwo .charStatsOne {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-right: 0; }
+    main section .mainArea .contentArea .charTwo .charStatsOne:last-child {
+      margin-right: 0; }
+    main section .mainArea .contentArea .charTwo .charStatsOne h2 {
+      font-size: 1.2em; }
+    main section .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+      font-size: 1.3em; }
+    main section .mainArea .contentArea .charTwo .charStatsOne span {
+      font-size: 1em; }
+  main section .mainArea .contentArea .charTwo .charStatsTwo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-top: 0.2em;
+    padding-top: 7.9em; }
+    main section .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+      margin-right: 0; }
+    main section .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+      font-size: 1.3em; }
+    main section .mainArea .contentArea .charTwo .charStatsTwo span {
+      font-size: 1em; }
+  main section .mainArea .contentArea .charThree .charStatsOne {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin: 0; }
+    main section .mainArea .contentArea .charThree .charStatsOne:last-child {
+      margin-right: 0; }
+    main section .mainArea .contentArea .charThree .charStatsOne h2 {
+      font-size: 1.2em; }
+    main section .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+      font-size: 1.3em; }
+    main section .mainArea .contentArea .charThree .charStatsOne span {
+      font-size: 1em; }
+  main section .mainArea .contentArea .charThree .charStatsTwo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    padding-top: 7.9em; }
+    main section .mainArea .contentArea .charThree .charStatsTwo:last-child {
+      margin-right: 0; }
+    main section .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+      font-size: 1.3em; }
+    main section .mainArea .contentArea .charThree .charStatsTwo span {
+      font-size: 1em; }
+  main .mainArea .contentArea .timelineText {
+    font-size: 0.9em; }
+    main .mainArea .contentArea .timelineText div h1 {
+      margin-top: 20%; }
+    main .mainArea .contentArea .timelineText div .arrowDown {
+      margin-left: 40%; }
+  main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+    margin-left: 21%; }
+  main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+    margin-left: 21%; }
+  main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+    margin-left: 21%; }
+  main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+    margin-left: 21%; }
+  main .mainArea .contentArea h1 {
+    color: white;
+    margin-left: 1.4em; }
+  main .mainArea .contentArea #journeyArea p {
+    color: white;
+    margin: 1.4em 3em 0 2em;
+    font-size: 1.3em; }
+  main .mainArea .contentArea #journeyArea p:nth-child(1) {
+    margin-right: 13em; }
+  main .mainArea .contentArea .charPic div img {
+    margin-top: 25%; }
+  main .mainArea .contentArea .charEquippedSkills {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 54.79204%; }
+    main .mainArea .contentArea .charEquippedSkills:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .charEquippedSkills div ul {
+      font-size: 1em; }
+  main .mainArea .contentArea .charStats div p {
+    font-size: 1.2em;
+    margin: 3% 0 3% 0;
+    line-height: 2em; }
+  main .mainArea .contentArea .charMisc {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 54.79204%; }
+    main .mainArea .contentArea .charMisc:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .charMisc div ul {
+      font-size: 1em; }
+  main .mainArea .contentArea .charEquip {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 54.79204%; }
+    main .mainArea .contentArea .charEquip:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .charEquip div ul {
+      font-size: 1em; }
+    main .mainArea .contentArea .charEquip div img {
+      height: 1.6em;
+      width: 1.6em; }
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 26.64368%;
+    height: 17.5em;
+    right: 1%; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.23em; }
+  main .profileInfo {
+    right: 1%; }
+    main .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      main .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      main .profileInfo .creator section h2 {
+        font-size: 1.3em; }
+      main .profileInfo .creator section h3 {
+        font-size: 1.1em; }
+    main .profileInfo .creator img {
+      height: 8.5em;
+      width: 11.5em;
+      position: relative;
+      left: 0.5em;
+      bottom: 12em; } }
+
+@media only screen and (max-width: 1380px) and (max-width: 1200px) {
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 44.55627%; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator img {
+      height: 8.5em;
+      width: 11.5em;
+      left: 0em; } }
+
+@media only screen and (max-width: 1150px) {
+  main {
+    height: 83em;
+    background-image: url("http://i.ytimg.com/vi/qDxpIvovlOs/maxresdefault.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main .mainSection .mainArea {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%;
+      height: 79em; }
+      main .mainSection .mainArea:last-child {
+        margin-right: 0; }
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 15.35365%; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 6.82384%; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .spriteImageOne {
+          margin: 2em 0 0 13%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 15.35365%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 6.82384%; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .spriteImageTwo {
+          margin: 2em 0 0 13%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+          font-size: 1em;
+          margin-left: 8.5298%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 15.35365%; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 6.82384%; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .spriteImageThree {
+          margin: 2em 0 0 13%; }
+  main .mainArea {
+    height: 79em; }
+    main .mainArea .contentArea .timelineText {
+      font-size: 1em; }
+      main .mainArea .contentArea .timelineText div h1 {
+        margin-top: 35%; }
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 37%; }
+    main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+      margin-left: 12.5%; }
+    main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+      margin-left: 12.5%; }
+    main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+      margin-left: 12.5%; }
+    main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+      margin-left: 12.5%; }
+    main .mainArea .contentArea h1 {
+      color: white;
+      margin-left: 1.4em; }
+    main .mainArea .contentArea #journeyArea p {
+      color: white;
+      font-size: 1.4em;
+      margin: 1.4em 3em 0 2em; }
+    main .mainArea .contentArea #journeyArea p:nth-child(1) {
+      margin-right: 13em; }
+    main .mainArea .contentArea .charPic {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 26.64368%; }
+      main .mainArea .contentArea .charPic:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 37%; }
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 27em;
+      margin-left: 0; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul li {
+          padding: 0; }
+          main .mainArea .contentArea .charEquippedSkills div ul li span {
+            bottom: 0.2em; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 26.64368%;
+      margin-right: 0;
+      position: relative;
+      bottom: 12em;
+      height: 28em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 1.05em;
+        margin: 3% 0 3% 0;
+        line-height: 2em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 23em; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charMisc div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charMisc div ul li {
+          padding-bottom: 0em; }
+          main .mainArea .contentArea .charMisc div ul li span {
+            bottom: 0.2em; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 21em; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquip div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquip div ul li {
+          margin: 0;
+          padding: 0; }
+        main .mainArea .contentArea .charEquip div ul img {
+          height: 1.6em;
+          width: 1.6em; }
+    main .mainArea .contentArea .firstProject {
+      height: 14em; }
+      main .mainArea .contentArea .firstProject h2 {
+        font-size: 1.3em; }
+      main .mainArea .contentArea .firstProject h3 {
+        font-size: 1.1em; }
+    main .mainArea .contentArea .secondProject {
+      height: 14em;
+      margin-right: 30%; }
+      main .mainArea .contentArea .secondProject h2 {
+        font-size: 1.3em; }
+      main .mainArea .contentArea .secondProject h3 {
+        font-size: 1.1em; }
+    main .mainArea .contentArea .thirdProject {
+      height: 14em;
+      margin-top: 26%; }
+      main .mainArea .contentArea .thirdProject h2 {
+        font-size: 1.3em; }
+      main .mainArea .contentArea .thirdProject h3 {
+        font-size: 1.1em; }
+    main .mainArea .contentArea .fourthProject {
+      height: 14em;
+      margin-top: 26%; }
+      main .mainArea .contentArea .fourthProject h2 {
+        font-size: 1.3em; }
+      main .mainArea .contentArea .fourthProject h3 {
+        font-size: 1.1em; }
+    main .mainArea .contentArea .fifthProject {
+      margin-top: 26%;
+      height: 14em; }
+      main .mainArea .contentArea .fifthProject h2 {
+        font-size: 1.3em; }
+      main .mainArea .contentArea .fifthProject h3 {
+        font-size: 1.1em; }
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 36.87945%;
+    height: 21em;
+    right: 2%; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.4em; }
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    right: 2%;
+    height: 19em;
+    top: 30em; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      main .profileInfo .creator section h2 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3:nth-child(5) {
+        padding-top: 0; }
+    main .profileInfo .creator img {
+      margin: 4% 0 0 33%;
+      height: 6em;
+      width: 10em;
+      position: inherit; } }
+  @media only screen and (max-width: 1150px) and (max-width: 1020px) {
+    main .profileInfo .creator img {
+      margin: 4% 0 0 31%; } }
+
+@media only screen and (max-width: 1150px) {
+  .projectArea {
+    height: 60em; } }
+
+@media only screen and (max-width: 950px) {
+  main {
+    height: 140em;
+    background-image: url("http://i.ytimg.com/vi/qDxpIvovlOs/maxresdefault.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main .mainSection .mainArea {
+      margin-top: 87%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      main .mainSection .mainArea:last-child {
+        margin-right: 0; }
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 32.41326%; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .spriteImageOne {
+          margin: 2em 0 0 8%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 32.41326%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .spriteImageTwo {
+          margin: 2em 0 0 8%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+          font-size: 1em;
+          margin-left: 1.70596%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 32.41326%; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .spriteImageThree {
+          margin: 2em 0 0 8%; } }
+  @media only screen and (max-width: 950px) and (max-width: 890px) {
+    main .mainSection .mainArea {
+      margin-top: 93%; } }
+
+@media only screen and (max-width: 950px) and (max-width: 890px) and (max-width: 840px) {
+  main .mainSection .mainArea {
+    margin-top: 98%; } }
+
+@media only screen and (max-width: 950px) and (max-width: 890px) and (max-width: 800px) {
+  main .mainSection .mainArea {
+    margin-top: 105%; } }
+
+@media only screen and (max-width: 950px) {
+  main .mainArea {
+    height: 90em;
+    margin-top: 45%;
+    margin-left: 12.79471%; }
+    main .mainArea .contentArea .timelineText {
+      font-size: 1em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 86.35231%;
+      height: 37em;
+      margin-top: 1em; }
+      main .mainArea .contentArea .timelineText:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timelineText div h1 {
+        margin-top: 35%; }
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 37%; }
+    main .mainArea .contentArea .timeline {
+      height: 40em;
+      margin-left: 14.50067%; }
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        width: 0.6em;
+        height: 36em;
+        top: 1em;
+        left: 14em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+          margin: 7% 0 0 19%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+          margin: 7% 0 0 19%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+          margin: 7% 0 0 19%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+          margin: 7% 0 0 19%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop p {
+          width: 5em;
+          position: relative;
+          top: 2.7em;
+          left: 2em; } }
+    @media only screen and (max-width: 950px) and (max-width: 860px) {
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        width: 0.6em;
+        height: 36em;
+        top: 1em;
+        left: 12.5em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+          margin: 7% 0 0 15%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop p {
+          left: 1.5em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+          margin: 7% 0 0 15%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop p {
+          left: 1.4em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+          margin: 7% 0 0 15%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop p {
+          left: 1.3em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+          margin: 7% 0 0 15%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop p {
+          left: 1.2em; } }
+
+@media only screen and (max-width: 950px) {
+    main .mainArea .contentArea h1 {
+      color: white;
+      margin-left: 0.7em; }
+    main .mainArea .contentArea #journeyArea p {
+      color: white;
+      font-size: 1.4em;
+      margin: 1.4em 1em 0 1em; }
+    main .mainArea .contentArea #journeyArea p:nth-child(1) {
+      margin-right: 1em; }
+    main .mainArea .contentArea .charPic {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%; }
+      main .mainArea .contentArea .charPic:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 30%; } }
+    @media only screen and (max-width: 950px) and (max-width: 850px) {
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 38%; } }
+
+@media only screen and (max-width: 950px) {
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 28em;
+      margin-left: 0; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquippedSkills div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul li {
+          padding: 0; }
+          main .mainArea .contentArea .charEquippedSkills div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%;
+      margin-right: 0;
+      position: relative;
+      height: 28em;
+      bottom: 12em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 1.05em;
+        margin: 3% 0 3% 0;
+        line-height: 2em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 23em; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charMisc div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charMisc div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charMisc div ul li {
+          padding-bottom: 0em; }
+          main .mainArea .contentArea .charMisc div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 21em; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquip div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquip div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquip div ul li {
+          margin: 0;
+          padding-left: 2%; }
+        main .mainArea .contentArea .charEquip div ul img {
+          height: 1.6em;
+          width: 1.6em; }
+    main .mainArea .contentArea .firstProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%;
+      height: 12em; }
+      main .mainArea .contentArea .firstProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .firstProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .firstProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .secondProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%;
+      height: 12em;
+      margin-right: 2.3%; }
+      main .mainArea .contentArea .secondProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .secondProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .secondProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .thirdProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%;
+      height: 12em;
+      margin-top: 2%; }
+      main .mainArea .contentArea .thirdProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .thirdProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .thirdProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fourthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%;
+      height: 12em;
+      margin-top: 27%; }
+      main .mainArea .contentArea .fourthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fourthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fourthProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fifthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 27.49666%;
+      margin-top: 27%;
+      height: 12em; }
+      main .mainArea .contentArea .fifthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fifthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fifthProject h3 {
+        font-size: 0.9em; }
+  main .skillArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 13.2212%; }
+    main .skillArea:last-child {
+      margin-right: 0; } }
+
+@media only screen and (max-width: 950px) and (max-width: 900px) {
+  main .mainArea {
+    margin-top: 49%; } }
+
+@media only screen and (max-width: 950px) and (max-width: 830px) {
+  main .mainArea {
+    margin-top: 54%; } }
+
+@media only screen and (max-width: 950px) {
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    height: 21em;
+    right: 24%;
+    top: 26em; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.45em; }
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    right: 2%;
+    height: 23em;
+    top: 2em;
+    right: 24%; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      main .profileInfo .creator section h2 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3:nth-child(5) {
+        padding-top: 0; }
+    main .profileInfo .creator img {
+      margin: 4%;
+      margin-left: 29.85432%;
+      height: 7.5em;
+      width: 11.5em; } }
+  @media only screen and (max-width: 950px) and (max-width: 840px) {
+    main .profileInfo .creator img {
+      margin-left: 27.72186%; } }
+
+@media only screen and (max-width: 950px) {
+  main .nonHomeMenu {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    height: 21em;
+    right: 24%;
+    top: 2em; }
+    main .nonHomeMenu:last-child {
+      margin-right: 0; }
+    main .nonHomeMenu ul {
+      font-size: 1.45em; }
+  .projectMain {
+    height: 80em; }
+    .projectMain .projectArea {
+      height: 50em; }
+  .skillMain {
+    height: 107em; }
+    .skillMain .skillArea {
+      height: 78em; }
+  .journeyArea {
+    height: 120em; }
+    .journeyArea .journeySection {
+      height: 82em; }
+  .jobMain {
+    height: 120em; }
+    .jobMain .jobArea {
+      height: 85em; } }
+
+@media handheld, screen and (max-width: 770px) {
+  main {
+    height: 140em;
+    background-image: url("http://i.ytimg.com/vi/qDxpIvovlOs/maxresdefault.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main .mainSection .mainArea {
+      margin-top: 105%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%;
+      height: 79em; }
+      main .mainSection .mainArea:last-child {
+        margin-right: 0; }
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 32.41326%; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .spriteImageOne {
+          margin: 2em 0 0 8%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 32.41326%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .spriteImageTwo {
+          margin: 2em 0 0 8%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+          font-size: 1em;
+          margin-left: 1.70596%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 32.41326%; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .spriteImageThree {
+          margin: 2em 0 0 8%; } }
+  @media handheld and (max-width: 745px), screen and (max-width: 770px) and (max-width: 745px) {
+    main .mainSection .mainArea {
+      margin-top: 110%; } }
+  @media handheld and (max-width: 710px), screen and (max-width: 770px) and (max-width: 710px) {
+    main .mainSection .mainArea {
+      margin-top: 115%; } }
+  @media handheld and (max-width: 680px), screen and (max-width: 770px) and (max-width: 680px) {
+    main .mainSection .mainArea {
+      margin-top: 120%; } }
+
+@media handheld, screen and (max-width: 770px) {
+  main .mainArea {
+    height: 90em;
+    margin-top: 55%;
+    margin-left: 12.79471%; }
+    main .mainArea .contentArea .timelineText {
+      font-size: 1em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 86.35231%;
+      height: 40em; }
+      main .mainArea .contentArea .timelineText:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timelineText div h1 {
+        margin-top: 50%; }
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 35%; }
+    main .mainArea .contentArea .timeline {
+      height: 40em;
+      margin-left: 14.50067%; }
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        width: 0.6em;
+        height: 36em;
+        top: 1em;
+        left: 11.5em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+          margin: 7% 0 0 13%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+          margin: 7% 0 0 13%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+          margin: 7% 0 0 13%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+          margin: 7% 0 0 13%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop p {
+          width: 5em;
+          position: relative;
+          top: 2.7em;
+          left: 2em; } }
+    @media handheld and (max-width: 710px), screen and (max-width: 770px) and (max-width: 710px) {
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        width: 0.6em;
+        height: 36em;
+        top: 1em;
+        left: 9em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+          margin: 7% 0 0 9.4%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop p {
+          left: 1.5em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+          margin: 7% 0 0 9.4%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop p {
+          left: 1.4em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+          margin: 7% 0 0 9.4%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop p {
+          left: 1.3em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+          margin: 7% 0 0 9.4%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop p {
+          left: 1.2em; } }
+
+@media handheld, screen and (max-width: 770px) {
+    main .mainArea .contentArea h1 {
+      color: white;
+      margin-left: 0.7em; }
+    main .mainArea .contentArea #journeyArea p {
+      color: white;
+      font-size: 1.4em;
+      margin: 1.4em 1em 0 1em; }
+    main .mainArea .contentArea #journeyArea p:nth-child(1) {
+      margin-right: 1em; }
+    main .mainArea .contentArea .charPic {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%; }
+      main .mainArea .contentArea .charPic:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 50%; }
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 28em;
+      margin-left: 0; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquippedSkills div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul li {
+          padding: 0; }
+          main .mainArea .contentArea .charEquippedSkills div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%;
+      margin-right: 0;
+      position: relative;
+      bottom: 12em;
+      height: 28em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 1.05em;
+        margin: 3% 0 3% 0;
+        line-height: 2em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 23em; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charMisc div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charMisc div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charMisc div ul li {
+          padding-bottom: 0em; }
+          main .mainArea .contentArea .charMisc div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 21em; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquip div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquip div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquip div ul li {
+          margin: 0;
+          padding-left: 2%; }
+        main .mainArea .contentArea .charEquip div ul img {
+          height: 1.6em;
+          width: 1.6em; }
+    main .mainArea .contentArea .firstProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      height: 12em; }
+      main .mainArea .contentArea .firstProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .firstProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .firstProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .secondProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 12em;
+      margin-right: 2.3%; }
+      main .mainArea .contentArea .secondProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .secondProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .secondProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .thirdProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 27%;
+      height: 12em; }
+      main .mainArea .contentArea .thirdProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .thirdProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .thirdProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fourthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 12em;
+      margin-top: 27%; }
+      main .mainArea .contentArea .fourthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fourthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fourthProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fifthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 27%;
+      height: 12em; }
+      main .mainArea .contentArea .fifthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fifthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fifthProject h3 {
+        font-size: 0.9em; }
+  main .skillArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 13.2212%; }
+    main .skillArea:last-child {
+      margin-right: 0; } }
+
+@media handheld and (max-width: 710px), screen and (max-width: 770px) and (max-width: 710px) {
+  main .mainArea {
+    margin-top: 60%; } }
+
+@media handheld, screen and (max-width: 770px) {
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    height: 21em;
+    right: 21%;
+    top: 26em; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.45em; }
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    right: 2%;
+    height: 23em;
+    top: 2em;
+    right: 21%; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      main .profileInfo .creator section h2 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3:nth-child(5) {
+        padding-top: 0; }
+    main .profileInfo .creator img {
+      margin: 4%;
+      margin-left: 29.85432%;
+      height: 7.5em;
+      width: 11.5em; } }
+  @media handheld and (max-width: 730px), screen and (max-width: 770px) and (max-width: 730px) {
+    main .profileInfo .creator img {
+      margin-left: 29.00133%; } }
+  @media handheld and (max-width: 700px), screen and (max-width: 770px) and (max-width: 700px) {
+    main .profileInfo .creator img {
+      margin-left: 28.57484%; } }
+  @media handheld and (max-width: 680px), screen and (max-width: 770px) and (max-width: 680px) {
+    main .profileInfo .creator img {
+      margin-left: 27.29537%; } }
+
+@media handheld, screen and (max-width: 770px) {
+  main .nonHomeMenu {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    height: 21em;
+    right: 21%;
+    top: 2em; }
+    main .nonHomeMenu:last-child {
+      margin-right: 0; }
+    main .nonHomeMenu ul {
+      font-size: 1.45em; }
+  .projectMain {
+    height: 95em; }
+    .projectMain .projectArea {
+      height: 65em; }
+  .skillMain {
+    height: 107em; }
+    .skillMain .skillArea {
+      height: 78em; }
+  .journeyArea {
+    height: 125em; }
+    .journeyArea .journeySection {
+      height: 94em; }
+  .jobMain {
+    height: 125em; }
+    .jobMain .jobArea {
+      height: 85em; } }
+
+@media only screen and (max-width: 650px) {
+  main {
+    height: 140em;
+    background-image: url("http://i.ytimg.com/vi/qDxpIvovlOs/maxresdefault.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main .mainSection .mainArea {
+      margin-top: 125%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 8.5298%;
+      height: 79em; }
+      main .mainSection .mainArea:last-child {
+        margin-right: 0; }
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 34.11922%; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .spriteImageOne {
+          margin: 2em 0 0 8%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 34.11922%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .spriteImageTwo {
+          margin: 2em 0 0 8%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+          font-size: 1em;
+          margin-left: 1.70596%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 34.11922%; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .spriteImageThree {
+          margin: 2em 0 0 8%; } }
+    @media only screen and (max-width: 650px) and (max-width: 530px) {
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 30.28081%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 30.28081%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 30.28081%; } }
+  @media only screen and (max-width: 650px) and (max-width: 625px) {
+    main .mainSection .mainArea {
+      margin-top: 130%; } }
+  @media only screen and (max-width: 650px) and (max-width: 600px) {
+    main .mainSection .mainArea {
+      margin-top: 137%; } }
+  @media only screen and (max-width: 650px) and (max-width: 570px) {
+    main .mainSection .mainArea {
+      margin-top: 143%; } }
+  @media only screen and (max-width: 650px) and (max-width: 550px) {
+    main .mainSection .mainArea {
+      margin-top: 149%; } }
+  @media only screen and (max-width: 650px) and (max-width: 525px) {
+    main .mainSection .mainArea {
+      margin-top: 157%; } }
+
+@media only screen and (max-width: 650px) {
+  main .mainArea {
+    height: 90em;
+    margin-top: 65%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    main .mainArea:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .timelineText {
+      font-size: 1em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 86.35231%;
+      height: 41em;
+      margin-top: 1em; }
+      main .mainArea .contentArea .timelineText:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timelineText div h1 {
+        margin-top: 60%; }
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 34.3%; }
+    main .mainArea .contentArea .timeline {
+      height: 40em;
+      margin-left: 14.50067%; }
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        width: 0.6em;
+        height: 36em;
+        top: 1em;
+        left: 9.5em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop p {
+          width: 5em;
+          position: relative;
+          top: 2.7em;
+          left: 2em; } }
+    @media only screen and (max-width: 650px) and (max-width: 470px) {
+      main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+        margin: 7% 0 0 2%; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+        margin: 7% 0 0 2%; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+        margin: 7% 0 0 2%; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+        margin: 7% 0 0 4%; } }
+
+@media only screen and (max-width: 650px) {
+    main .mainArea .contentArea h1 {
+      color: white;
+      margin-left: 0.7em; }
+    main .mainArea .contentArea #journeyArea p {
+      color: white;
+      font-size: 1.4em;
+      margin: 1.4em 1em 0 1em; }
+    main .mainArea .contentArea #journeyArea p:nth-child(1) {
+      margin-right: 1em; }
+    main .mainArea .contentArea .charPic {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%; }
+      main .mainArea .contentArea .charPic:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 50%; } }
+    @media only screen and (max-width: 650px) and (max-width: 550px) {
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 60%;
+        height: 7em;
+        width: 7em;
+        margin: 40% 0 0 7%; } }
+
+@media only screen and (max-width: 650px) {
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 28em;
+      margin-left: 0; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquippedSkills div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul li {
+          padding: 0; }
+          main .mainArea .contentArea .charEquippedSkills div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%;
+      margin-right: 0;
+      position: relative;
+      bottom: 12em;
+      height: 28em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 1.05em;
+        margin: 3% 0 3% 0;
+        line-height: 2em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 23em; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charMisc div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charMisc div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charMisc div ul li {
+          padding-bottom: 0em; }
+          main .mainArea .contentArea .charMisc div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 21em; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquip div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquip div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquip div ul li {
+          margin: 0;
+          padding-left: 2%; }
+        main .mainArea .contentArea .charEquip div ul img {
+          height: 1.6em;
+          width: 1.6em; }
+    main .mainArea .contentArea .firstProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      height: 12em; }
+      main .mainArea .contentArea .firstProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .firstProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .firstProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .secondProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 12em;
+      margin-right: 2.3%; }
+      main .mainArea .contentArea .secondProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .secondProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .secondProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .thirdProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 27%;
+      height: 12em; }
+      main .mainArea .contentArea .thirdProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .thirdProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .thirdProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fourthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 12em;
+      margin-top: 27%; }
+      main .mainArea .contentArea .fourthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fourthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fourthProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fifthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 32%;
+      height: 12em; }
+      main .mainArea .contentArea .fifthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fifthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fifthProject h3 {
+        font-size: 0.9em; }
+  main .skillArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    main .skillArea:last-child {
+      margin-right: 0; } }
+
+@media only screen and (max-width: 650px) and (max-width: 600px) {
+  main .mainArea {
+    margin-top: 70%;
+    height: 95em; } }
+
+@media only screen and (max-width: 650px) and (max-width: 550px) {
+  main .mainArea {
+    margin-top: 78%;
+    height: 95em; } }
+
+@media only screen and (max-width: 650px) and (max-width: 580px) {
+  main .mainArea {
+    height: 101em; }
+    main .mainArea .contentArea .timelineText {
+      font-size: 1em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 86.35231%;
+      height: 44em;
+      margin-top: 1em; }
+      main .mainArea .contentArea .timelineText:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timelineText div h1 {
+        margin-top: 60%; }
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 31%; }
+    main .mainArea .contentArea .timeline {
+      height: 40em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 91.4702%;
+      margin-left: 4.2649%; }
+      main .mainArea .contentArea .timeline:last-child {
+        margin-right: 0; } }
+
+@media only screen and (max-width: 650px) {
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    height: 21em;
+    right: 12%;
+    top: 26em; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.45em; }
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    right: 2%;
+    height: 23em;
+    top: 2em;
+    right: 12%; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      main .profileInfo .creator section h2 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3:nth-child(5) {
+        padding-top: 0; }
+    main .profileInfo .creator img {
+      margin: 4%;
+      margin-left: 29.85432%;
+      height: 7.5em;
+      width: 11.5em; } }
+  @media only screen and (max-width: 650px) and (max-width: 600px) {
+    main .profileInfo .creator img {
+      margin-left: 28.14835%; } }
+  @media only screen and (max-width: 650px) and (max-width: 550px) {
+    main .profileInfo .creator img {
+      margin-left: 26.86888%; } }
+
+@media only screen and (max-width: 650px) {
+  main .nonHomeMenu {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    height: 21em;
+    right: 13%;
+    top: 2em; }
+    main .nonHomeMenu:last-child {
+      margin-right: 0; }
+    main .nonHomeMenu ul {
+      font-size: 1.45em; }
+  .projectMain {
+    height: 95em; }
+    .projectMain .projectArea {
+      height: 68em; }
+  .skillMain {
+    height: 107em; }
+    .skillMain .skillArea {
+      height: 78em; }
+  .journeyArea {
+    height: 120em; }
+    .journeyArea .journeySection {
+      height: 90em; }
+  .jobMain {
+    height: 120em; }
+    .jobMain .jobArea {
+      height: 90em; } }
+
+@media only screen and (max-width: 500px) {
+  main {
+    height: 150em;
+    background-image: url("http://i.ytimg.com/vi/qDxpIvovlOs/maxresdefault.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main .mainSection .mainArea {
+      margin-top: 163%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 8.5298%;
+      height: 79em; }
+      main .mainSection .mainArea:last-child {
+        margin-right: 0; }
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 28.14835%; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .spriteImageOne {
+          margin: 2em 0 0 8%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 28.14835%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .spriteImageTwo {
+          margin: 2em 0 0 8%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+          font-size: 1em;
+          margin-left: 1.70596%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 28.14835%; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .spriteImageThree {
+          margin: 2em 0 0 8%; } }
+  @media only screen and (max-width: 500px) and (max-width: 485px) {
+    main .mainSection .mainArea {
+      margin-top: 168%; } }
+  @media only screen and (max-width: 500px) and (max-width: 465px) {
+    main .mainSection .mainArea {
+      margin-top: 175%; } }
+  @media only screen and (max-width: 500px) and (max-width: 450px) {
+    main .mainSection .mainArea {
+      margin-top: 181%; } }
+  @media only screen and (max-width: 500px) and (max-width: 435px) {
+    main .mainSection .mainArea {
+      margin-top: 187%; } }
+
+@media only screen and (max-width: 500px) {
+  main .mainArea {
+    height: 114em;
+    margin-top: 84%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    main .mainArea:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .timelineText {
+      font-size: 1em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 86.35231%;
+      height: 50em;
+      margin-top: 1em; }
+      main .mainArea .contentArea .timelineText:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timelineText div h1 {
+        margin-top: 60%; }
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 30%; } }
+    @media only screen and (max-width: 500px) and (max-width: 460px) {
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 27%; } }
+  @media only screen and (max-width: 500px) and (max-width: 450px) {
+    main .mainArea .contentArea .timelineText {
+      height: 54em; } }
+
+@media only screen and (max-width: 500px) {
+    main .mainArea .contentArea .timeline {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 91.4702%;
+      margin-left: 4.2649%; }
+      main .mainArea .contentArea .timeline:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        width: 0.6em;
+        height: 36em;
+        top: 1em;
+        left: 9.5em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+          margin: 7% 0 0 4%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 1.8em; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop p {
+          width: 5em;
+          position: relative;
+          top: 2.7em;
+          left: 2em; }
+    main .mainArea .contentArea h1 {
+      color: white;
+      margin-left: 0.7em; }
+    main .mainArea .contentArea #journeyArea p {
+      color: white;
+      font-size: 1.4em;
+      margin: 1.4em 1em 0 1em; }
+    main .mainArea .contentArea #journeyArea p:nth-child(1) {
+      margin-right: 1em; }
+    main .mainArea .contentArea .charPic {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%; }
+      main .mainArea .contentArea .charPic:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 50%;
+        height: 6em;
+        width: 6em;
+        margin: 50% 0 0 9%; }
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 28em;
+      margin-left: 0; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquippedSkills div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquippedSkills div ul li {
+          padding: 0; }
+          main .mainArea .contentArea .charEquippedSkills div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%;
+      margin-right: 0;
+      position: relative;
+      bottom: 12em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 1.05em;
+        margin: 3% 0 3% 0;
+        line-height: 2em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 23em; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charMisc div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charMisc div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charMisc div ul li {
+          padding-bottom: 0em; }
+          main .mainArea .contentArea .charMisc div ul li span {
+            bottom: 0.2em;
+            left: 0.3em; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 54.79204%;
+      height: 21em; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip h2 {
+        text-align: center; }
+      main .mainArea .contentArea .charEquip div ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0; }
+        main .mainArea .contentArea .charEquip div ul:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .charEquip div ul li {
+          margin: 0;
+          padding-left: 2%; }
+        main .mainArea .contentArea .charEquip div ul img {
+          height: 1.6em;
+          width: 1.6em; } }
+  @media only screen and (max-width: 500px) and (max-width: 460px) {
+    main .mainArea .contentArea .charPic {
+      height: 10em; }
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 50%;
+        height: 5em;
+        width: 5em;
+        margin: 30% 0 0 13%; }
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charEquippedSkills div ul li span {
+        font-size: 0.85em; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%;
+      bottom: 18em;
+      height: 24em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      margin-right: 0;
+      margin-left: 0; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charMisc div ul li span {
+        font-size: 0.85em; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      height: 21em;
+      margin-right: 0;
+      margin-left: 0; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charEquip div ul li span {
+        font-size: 0.85em;
+        bottom: 0.55em; } }
+  @media only screen and (max-width: 500px) and (max-width: 430px) {
+    main .mainArea .contentArea .charPic div img {
+      height: 5em;
+      width: 5em;
+      margin: 30% 0 0 10%; } }
+
+@media only screen and (max-width: 500px) {
+    main .mainArea .contentArea .firstProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      height: 10em; }
+      main .mainArea .contentArea .firstProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .firstProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .firstProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .secondProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 10em;
+      margin-right: 2.3%; }
+      main .mainArea .contentArea .secondProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .secondProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .secondProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .thirdProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 42%;
+      height: 10em; }
+      main .mainArea .contentArea .thirdProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .thirdProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .thirdProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fourthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 10em;
+      margin-top: 42%; }
+      main .mainArea .contentArea .fourthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fourthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fourthProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .fifthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 42%;
+      height: 10em; }
+      main .mainArea .contentArea .fifthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fifthProject h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .fifthProject h3 {
+        font-size: 0.9em; }
+  main .skillArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    main .skillArea:last-child {
+      margin-right: 0; } }
+
+@media only screen and (max-width: 500px) and (max-width: 470px) {
+  main .mainArea {
+    margin-top: 92%;
+    height: 125em; }
+    main .mainArea .contentArea .timelineText div h1 {
+      margin-top: 60%; }
+    main .mainArea .contentArea .timelineText div span {
+      font-size: 1em; }
+    main .mainArea .contentArea .timeline {
+      height: 40em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 91.4702%;
+      margin-left: 4.2649%; }
+      main .mainArea .contentArea .timeline:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        left: 8.7em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+        margin: 7% 0 0 0%; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop .ta {
+        top: 2.6em;
+        left: 1.6em;
+        font-size: 1.2em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+        margin: 7% 0 0 0%; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop .unv {
+        top: 2.6em;
+        left: 1.8em;
+        font-size: 1.2em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+        margin: 7% 0 0 0%; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop .coc {
+        top: 2.7em;
+        left: 1.6em;
+        font-size: 1.2em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+        margin: 7% 0 0 0%; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop .iy {
+        top: 3.3em;
+        left: 1.6em;
+        font-size: 1.2em; } }
+
+@media only screen and (max-width: 500px) {
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    height: 21em;
+    right: 4%;
+    top: 26em; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.45em; }
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    right: 2%;
+    height: 23em;
+    top: 2em;
+    right: 4%; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      main .profileInfo .creator section h2 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3 {
+        font-size: 1.3em;
+        text-align: center; }
+      main .profileInfo .creator section h3:nth-child(5) {
+        padding-top: 0; }
+    main .profileInfo .creator img {
+      margin: 4%;
+      margin-left: 28.14835%;
+      height: 7.5em;
+      width: 11.5em; } }
+  @media only screen and (max-width: 500px) and (max-width: 450px) {
+    main .profileInfo .creator img {
+      margin-left: 26.44239%; } }
+
+@media only screen and (max-width: 500px) {
+  main .nonHomeMenu {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    height: 21em;
+    right: 4%;
+    top: 2em; }
+    main .nonHomeMenu:last-child {
+      margin-right: 0; }
+    main .nonHomeMenu ul {
+      font-size: 1.45em; }
+  .projectMain {
+    height: 90em; }
+    .projectMain .projectArea {
+      height: 62em; }
+  .skillMain {
+    height: 107em; }
+    .skillMain .skillArea {
+      height: 78em; }
+  .journeyArea {
+    height: 155em; }
+    .journeyArea .journeySection {
+      height: 130em; }
+  .jobMain {
+    height: 125em; }
+    .jobMain .jobArea {
+      height: 100em; } }
+
+@media only screen and (max-width: 420px) {
+  main {
+    height: 160em;
+    background-image: url("http://i.ytimg.com/vi/qDxpIvovlOs/maxresdefault.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    main .mainSection .mainArea {
+      margin-top: 190%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      margin-left: 8.5298%;
+      height: 79em; }
+      main .mainSection .mainArea:last-child {
+        margin-right: 0; }
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 26.44239%; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charOne .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charOne .spriteImageOne {
+          margin: 2em 0 0 8%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 26.44239%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charTwo .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charTwo .spriteImageTwo {
+          margin: 2em 0 0 8%; }
+        main .mainSection .mainArea .contentArea .charTwo .charStatsOne h2 {
+          font-size: 1em;
+          margin-left: 1.70596%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 26.44239%; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne h2 {
+            font-size: 1em;
+            margin-left: 1.70596%; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span:nth-child(2) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsOne span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .charStatsTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          padding: 0.7em 0 0 0.7em;
+          margin: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo:last-child {
+            margin-right: 0; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span:nth-child(1) {
+            font-size: 1.1em; }
+          main .mainSection .mainArea .contentArea .charThree .charStatsTwo span {
+            font-size: 1em; }
+        main .mainSection .mainArea .contentArea .charThree .spriteImageThree {
+          margin: 2em 0 0 8%; } }
+    @media only screen and (max-width: 420px) and (max-width: 380px) {
+      main .mainSection .mainArea .contentArea .charOne {
+        margin-left: 23.03047%; }
+      main .mainSection .mainArea .contentArea .charTwo {
+        margin-left: 23.03047%; }
+      main .mainSection .mainArea .contentArea .charThree {
+        margin-left: 23.03047%; } }
+  @media only screen and (max-width: 420px) and (max-width: 400px) {
+    main .mainSection .mainArea {
+      margin-top: 200%; } }
+  @media only screen and (max-width: 420px) and (max-width: 380px) {
+    main .mainSection .mainArea {
+      margin-top: 207%; } }
+  @media only screen and (max-width: 420px) and (max-width: 370px) {
+    main .mainSection .mainArea {
+      margin-top: 220%; } }
+  @media only screen and (max-width: 420px) and (max-width: 340px) {
+    main .mainSection .mainArea {
+      margin-top: 230%; } }
+
+@media only screen and (max-width: 420px) {
+  main .mainArea {
+    height: 115em;
+    margin-top: 92%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 95.7351%;
+    margin-left: 2.13245%; }
+    main .mainArea:last-child {
+      margin-right: 0; }
+    main .mainArea .contentArea .timelineText {
+      font-size: 0.85em;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 91.4702%;
+      height: 53em;
+      margin-top: 1em;
+      margin-left: 4.2649%; }
+      main .mainArea .contentArea .timelineText:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timelineText div h1 {
+        margin-top: 60%; }
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 32%; } }
+    @media only screen and (max-width: 420px) and (max-width: 400px) {
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 31%; } }
+    @media only screen and (max-width: 420px) and (max-width: 370px) {
+      main .mainArea .contentArea .timelineText div .arrowDown {
+        margin-left: 28.5%; } }
+
+@media only screen and (max-width: 420px) {
+    main .mainArea .contentArea .timeline {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 91.4702%;
+      margin-left: 4.2649%; }
+      main .mainArea .contentArea .timeline:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .timeline .timelineArea .mainLine {
+        width: 0.6em;
+        height: 36em;
+        top: 1em;
+        left: 7.5em; }
+      main .mainArea .contentArea .timeline .timelineArea .firstStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .spriteFirst {
+          margin: 7% 0 0 0%; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .firstStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .secondStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%;
+        float: left; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .spriteSecond {
+          margin: 7% 0 0 0%; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .secondStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .thirdStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .spriteThird {
+          margin: 7% 0 0 0%; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .thirdStop p {
+          width: 5em;
+          position: relative;
+          top: 2em;
+          left: 2em; }
+      main .mainArea .contentArea .timeline .timelineArea .fourthStop {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop:last-child {
+          margin-right: 0; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .spriteFourth {
+          margin: 7% 0 0 0%; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+          margin: 0;
+          width: 2em;
+          height: 0.3em;
+          position: relative;
+          top: 5.3em;
+          left: 0.7em; }
+        main .mainArea .contentArea .timeline .timelineArea .fourthStop p {
+          width: 5em;
+          position: relative;
+          top: 2.7em;
+          left: 2em; } }
+  @media only screen and (max-width: 420px) and (max-width: 340px) {
+    main .mainArea .contentArea .timeline .timelineArea .firstStop .ta {
+      font-size: 1.0em;
+      top: 3.6em;
+      left: 1em; }
+    main .mainArea .contentArea .timeline .timelineArea .firstStop .ticklineOne {
+      width: 1em; } }
+  @media only screen and (max-width: 420px) and (max-width: 340px) {
+    main .mainArea .contentArea .timeline .timelineArea .secondStop .unv {
+      font-size: 1.0em;
+      top: 3.6em;
+      left: 1em; }
+    main .mainArea .contentArea .timeline .timelineArea .secondStop .ticklineTwo {
+      width: 1em; } }
+  @media only screen and (max-width: 420px) and (max-width: 340px) {
+    main .mainArea .contentArea .timeline .timelineArea .thirdStop .coc {
+      font-size: 1.0em;
+      top: 3.7em;
+      left: 1em; }
+    main .mainArea .contentArea .timeline .timelineArea .thirdStop .ticklineThree {
+      width: 1em; } }
+  @media only screen and (max-width: 420px) and (max-width: 340px) {
+    main .mainArea .contentArea .timeline .timelineArea .fourthStop .iy {
+      font-size: 1.0em;
+      top: 4.3em;
+      left: 1em; }
+    main .mainArea .contentArea .timeline .timelineArea .fourthStop .ticklineFourth {
+      width: 1em; } }
+
+@media only screen and (max-width: 420px) {
+    main .mainArea .contentArea h1 {
+      color: white;
+      margin-left: 0.7em; }
+    main .mainArea .contentArea #journeyArea p {
+      color: white;
+      font-size: 1.2em;
+      margin: 1.4em 1em 0 1em; }
+    main .mainArea .contentArea #journeyArea p:nth-child(1) {
+      margin-right: 1em; }
+    main .mainArea .contentArea .charPic {
+      height: 10em; }
+      main .mainArea .contentArea .charPic div img {
+        margin-top: 50%;
+        height: 5em;
+        width: 5em;
+        margin: 30% 0 0 13%; }
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charEquippedSkills div ul li span {
+        font-size: 0.85em; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%;
+      bottom: 18em;
+      height: 24em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      margin-right: 0;
+      margin-left: 0; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charMisc div ul li span {
+        font-size: 0.85em; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      margin-right: 3.8%;
+      height: 21em; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charEquip div ul li span {
+        font-size: 0.85em;
+        bottom: 0.55em; } }
+  @media only screen and (max-width: 420px) and (max-width: 400px) {
+    main .mainArea .contentArea .charPic {
+      height: 10em; }
+      main .mainArea .contentArea .charPic div img {
+        height: 4em;
+        width: 4em;
+        margin: 40% 0 0 18%; } }
+  @media only screen and (max-width: 420px) and (max-width: 380px) {
+    main .mainArea .contentArea .charPic div img {
+      height: 4em;
+      width: 4em;
+      margin: 40% 0 0 14%; }
+    main .mainArea .contentArea .charEquippedSkills {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 58.20396%; }
+      main .mainArea .contentArea .charEquippedSkills:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquippedSkills h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charEquippedSkills div ul li span {
+        font-size: 0.7em; }
+      main .mainArea .contentArea .charEquippedSkills div ul li img {
+        position: relative;
+        height: 0.8em;
+        width: 0.9em;
+        bottom: 1px; }
+    main .mainArea .contentArea .charStats {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.32051%;
+      bottom: 18em;
+      height: 22em; }
+      main .mainArea .contentArea .charStats:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charStats div p {
+        font-size: 0.7em; }
+    main .mainArea .contentArea .charMisc {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 58.20396%;
+      margin-right: 0;
+      margin-left: 0; }
+      main .mainArea .contentArea .charMisc:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charMisc h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charMisc div ul li span {
+        font-size: 0.7em; }
+      main .mainArea .contentArea .charMisc div ul li img {
+        position: relative;
+        height: 0.8em;
+        width: 0.9em;
+        bottom: 1px; }
+    main .mainArea .contentArea .charEquip {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 58.20396%;
+      margin-left: 38.38412%;
+      height: 17em; }
+      main .mainArea .contentArea .charEquip:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .charEquip h2 {
+        font-size: 1.2em; }
+      main .mainArea .contentArea .charEquip div ul li span {
+        font-size: 0.7em; }
+      main .mainArea .contentArea .charEquip div ul img {
+        position: relative;
+        height: 1.2em;
+        width: 1.2em;
+        bottom: 0.2em; } }
+
+@media only screen and (max-width: 420px) {
+    main .mainArea .contentArea .firstProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      height: 9em; }
+      main .mainArea .contentArea .firstProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .firstProject h2 {
+        font-size: 1.1em; }
+      main .mainArea .contentArea .firstProject h3 {
+        font-size: 0.9em; }
+    main .mainArea .contentArea .secondProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 9em;
+      margin-right: 2.3%; }
+      main .mainArea .contentArea .secondProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .secondProject h2 {
+        font-size: 1.1em; }
+      main .mainArea .contentArea .secondProject h3 {
+        font-size: 0.8em; }
+    main .mainArea .contentArea .thirdProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 47%;
+      height: 9em; }
+      main .mainArea .contentArea .thirdProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .thirdProject h2 {
+        font-size: 1.1em; }
+      main .mainArea .contentArea .thirdProject h3 {
+        font-size: 0.8em; }
+    main .mainArea .contentArea .fourthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 9em;
+      margin-top: 47%; }
+      main .mainArea .contentArea .fourthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fourthProject h2 {
+        font-size: 1.1em; }
+      main .mainArea .contentArea .fourthProject h3 {
+        font-size: 0.8em; }
+    main .mainArea .contentArea .fifthProject {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      margin-left: 6.82384%;
+      margin-top: 47%;
+      height: 9em; }
+      main .mainArea .contentArea .fifthProject:last-child {
+        margin-right: 0; }
+      main .mainArea .contentArea .fifthProject h2 {
+        font-size: 1.1em; }
+      main .mainArea .contentArea .fifthProject h3 {
+        font-size: 0.8em; }
+  main .skillArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 95.7351%;
+    margin-left: 2.13245%; }
+    main .skillArea:last-child {
+      margin-right: 0; } }
+
+@media only screen and (max-width: 420px) and (max-width: 390px) {
+  main .mainArea {
+    margin-top: 100%;
+    height: 105em; } }
+
+@media only screen and (max-width: 420px) and (max-width: 350px) {
+  main .mainArea {
+    margin-top: 113%;
+    height: 105em; } }
+
+@media only screen and (max-width: 420px) {
+  main .menuArea {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 95.7351%;
+    height: 19.5em;
+    right: 2%;
+    top: 26em; }
+    main .menuArea:last-child {
+      margin-right: 0; }
+    main .menuArea ul {
+      font-size: 1.35em; } }
+
+@media only screen and (max-width: 420px) and (max-width: 375px) {
+  main .menuArea {
+    height: 18.5em !important; }
+    main .menuArea ul li {
+      font-size: 0.9em; }
+      main .menuArea ul li div {
+        position: relative;
+        top: 0.2em;
+        width: 0.9em;
+        height: 0.9em; } }
+
+@media only screen and (max-width: 420px) {
+  main .profileInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 95.7351%;
+    right: 2%;
+    height: 23em;
+    top: 2em;
+    right: 2%; }
+    main .profileInfo:last-child {
+      margin-right: 0; }
+    main .profileInfo .creator section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      main .profileInfo .creator section:last-child {
+        margin-right: 0; }
+      main .profileInfo .creator section h2 {
+        font-size: 1.25em;
+        text-align: center; }
+      main .profileInfo .creator section h3 {
+        font-size: 1.2em;
+        text-align: center; }
+      main .profileInfo .creator section h3:nth-child(5) {
+        padding-top: 0; } }
+  @media only screen and (max-width: 420px) and (max-width: 410px) {
+    main .profileInfo .creator img {
+      margin-left: 25.58941%; } }
+  @media only screen and (max-width: 420px) and (max-width: 390px) {
+    main .profileInfo .creator img {
+      margin-left: 24.73643%; } }
+  @media only screen and (max-width: 420px) and (max-width: 380px) {
+    main .profileInfo .creator img {
+      margin-left: 24.30994%; } }
+  @media only screen and (max-width: 420px) and (max-width: 360px) {
+    main .profileInfo .creator img {
+      margin-left: 21.751%; } }
+
+@media only screen and (max-width: 420px) {
+  main .nonHomeMenu {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 95.7351%;
+    height: 20em;
+    right: 2%;
+    top: 2em; }
+    main .nonHomeMenu:last-child {
+      margin-right: 0; }
+    main .nonHomeMenu ul {
+      font-size: 1.3em; }
+  .projectMain {
+    height: 90em; }
+    .projectMain .projectArea {
+      height: 62em; }
+  .skillMain {
+    height: 100em; }
+    .skillMain .skillArea {
+      height: 75em; }
+  .journeyArea {
+    height: 140em; }
+    .journeyArea .journeySection {
+      height: 115em; }
+  .jobMain {
+    height: 115em; }
+    .jobMain .jobArea {
+      height: 90em; } }
